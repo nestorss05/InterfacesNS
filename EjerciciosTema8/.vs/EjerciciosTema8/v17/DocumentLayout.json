@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\",
+  "WorkspaceRootPath": "C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E8A4F8A-BCCD-49D0-B33F-ADF95BAF1A4A}|EjerciciosTema8\\Ejercicio1.csproj|c:\\users\\nsanchez\\documents\\repositorios\\interfaces\\ejerciciostema8\\ejerciciostema8\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4E8A4F8A-BCCD-49D0-B33F-ADF95BAF1A4A}|EjerciciosTema8\\Ejercicio1.csproj|solutionrelative:ejerciciostema8\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EjerciciosTema8\\MainPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E8A4F8A-BCCD-49D0-B33F-ADF95BAF1A4A}|EjerciciosTema8\\Ejercicio1.csproj|c:\\users\\nsanchez\\documents\\repositorios\\interfaces\\ejerciciostema8\\ejerciciostema8\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8A4F8A-BCCD-49D0-B33F-ADF95BAF1A4A}|EjerciciosTema8\\Ejercicio1.csproj|solutionrelative:ejerciciostema8\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EjerciciosTema8\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +28,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "EjerciciosTema8\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml.cs",
               "RelativeToolTip": "EjerciciosTema8\\MainPage.xaml.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:40:17.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T11:40:17.807Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml",
               "RelativeDocumentMoniker": "EjerciciosTema8\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml",
               "RelativeToolTip": "EjerciciosTema8\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
