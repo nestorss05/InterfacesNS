@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio4.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Ejercicio 4"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label Text="Fecha de entrada" />
+
+            <DatePicker x:Name="fecha1" DateSelected="fecha1_DateSelected"/>
+
+            <Label Text="Fecha de salida" />
+
+            <DatePicker x:Name="fecha2"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

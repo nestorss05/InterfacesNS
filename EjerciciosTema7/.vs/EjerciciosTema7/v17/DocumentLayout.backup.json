@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AE0BA8-1DE4-4698-B49E-AE0B935827ED}|Ejercicio5\\Ejercicio5.csproj|c:\\users\\nsanchez\\documents\\repositorios\\interfaces\\ejerciciostema7\\ejercicio5\\views\\help.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4AE0BA8-1DE4-4698-B49E-AE0B935827ED}|Ejercicio5\\Ejercicio5.csproj|solutionrelative:ejercicio5\\views\\help.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AE0BA8-1DE4-4698-B49E-AE0B935827ED}|Ejercicio5\\Ejercicio5.csproj|c:\\users\\nsanchez\\documents\\repositorios\\interfaces\\ejerciciostema7\\ejercicio5\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4AE0BA8-1DE4-4698-B49E-AE0B935827ED}|Ejercicio5\\Ejercicio5.csproj|solutionrelative:ejercicio5\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AE0BA8-1DE4-4698-B49E-AE0B935827ED}|Ejercicio5\\Ejercicio5.csproj|c:\\users\\nsanchez\\documents\\repositorios\\interfaces\\ejerciciostema7\\ejercicio5\\views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4AE0BA8-1DE4-4698-B49E-AE0B935827ED}|Ejercicio5\\Ejercicio5.csproj|solutionrelative:ejercicio5\\views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AE0BA8-1DE4-4698-B49E-AE0B935827ED}|Ejercicio5\\Ejercicio5.csproj|c:\\users\\nsanchez\\documents\\repositorios\\interfaces\\ejerciciostema7\\ejercicio5\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4AE0BA8-1DE4-4698-B49E-AE0B935827ED}|Ejercicio5\\Ejercicio5.csproj|solutionrelative:ejercicio5\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Help.xaml",
+              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio5\\Views\\Help.xaml",
+              "RelativeDocumentMoniker": "Ejercicio5\\Views\\Help.xaml",
+              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio5\\Views\\Help.xaml",
+              "RelativeToolTip": "Ejercicio5\\Views\\Help.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-14T12:31:59.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio5\\Views\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "Ejercicio5\\Views\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio5\\Views\\AboutPage.xaml",
+              "RelativeToolTip": "Ejercicio5\\Views\\AboutPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-14T11:21:18.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio5\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Ejercicio5\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio5\\AppShell.xaml",
+              "RelativeToolTip": "Ejercicio5\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-11T12:20:35.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio5\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Ejercicio5\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio5\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Ejercicio5\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-11T12:19:42.959Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

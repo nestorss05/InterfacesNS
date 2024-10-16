@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Ejercicio5.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Ejercicio5"
+    xmlns:views="clr-namespace:Ejercicio5.Views"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Ejercicio5">
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+                  HeightRequest="200">
+                <Image Aspect="AspectFill"
+                       Source="holaoreo.jpg"
+                       Opacity="0.4" />
+                <Label Text="OREO"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+        Title="Inicio"
+        ContentTemplate="{DataTemplate views:MainPage}"/>
+        <Tab Title="Clasicas" Icon="oreo.png">
+            <ShellContent
+                Title="Oreo Classic"
+                ContentTemplate="{DataTemplate views:OreoClassic}"/>
+            <ShellContent
+                Title="Oreo Doble"
+                ContentTemplate="{DataTemplate views:OreoDouble}"/>
+        </Tab>
+        <Tab Title="Nuevas" Icon="oreo.png">
+            <ShellContent
+                Title="Oreo Remix"
+                ContentTemplate="{DataTemplate views:OreoRemix}"/>
+            <ShellContent
+                Title="Oreo Golden"
+                ContentTemplate="{DataTemplate views:OreoGolden}"/>
+        </Tab>
+        
+    </FlyoutItem>
+
+    <ShellContent Title="Acerca de..."
+                  ContentTemplate="{DataTemplate views:AboutPage}" />
+
+    <ShellContent Title="Ayuda"
+              ContentTemplate="{DataTemplate views:Help}" />
+
+</Shell>
