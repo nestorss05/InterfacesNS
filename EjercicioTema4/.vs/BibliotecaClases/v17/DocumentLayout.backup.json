@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Nestor\\Documents\\2DAM\\Interfaces\\BibliotecaClases\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B89C7052-159F-47A6-91BC-BCEC80512ED1}|BibliotecaClases\\BibliotecaClases.csproj|d:\\users\\nestor\\documents\\2dam\\interfaces\\bibliotecaclases\\bibliotecaclases\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89C7052-159F-47A6-91BC-BCEC80512ED1}|BibliotecaClases\\BibliotecaClases.csproj|solutionrelative:bibliotecaclases\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D112AB-1884-47DE-AC81-C4009863E2C8}|AplicacionWPFnueva\\AplicacionWPFnueva.csproj|d:\\users\\nestor\\documents\\2dam\\interfaces\\bibliotecaclases\\aplicacionwpfnueva\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D112AB-1884-47DE-AC81-C4009863E2C8}|AplicacionWPFnueva\\AplicacionWPFnueva.csproj|solutionrelative:aplicacionwpfnueva\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B06D28C0-A9C3-476B-AD48-334094BF98B1}|EjercicioForms\\EjercicioForms.vbproj|d:\\users\\nestor\\documents\\2dam\\interfaces\\bibliotecaclases\\ejercicioforms\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B06D28C0-A9C3-476B-AD48-334094BF98B1}|EjercicioForms\\EjercicioForms.vbproj|solutionrelative:ejercicioforms\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsPersona.cs",
+              "DocumentMoniker": "D:\\Users\\Nestor\\Documents\\2DAM\\Interfaces\\BibliotecaClases\\BibliotecaClases\\ClsPersona.cs",
+              "RelativeDocumentMoniker": "BibliotecaClases\\ClsPersona.cs",
+              "ToolTip": "D:\\Users\\Nestor\\Documents\\2DAM\\Interfaces\\BibliotecaClases\\BibliotecaClases\\ClsPersona.cs",
+              "RelativeToolTip": "BibliotecaClases\\ClsPersona.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T10:51:29.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\Nestor\\Documents\\2DAM\\Interfaces\\BibliotecaClases\\AplicacionWPFnueva\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AplicacionWPFnueva\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Users\\Nestor\\Documents\\2DAM\\Interfaces\\BibliotecaClases\\AplicacionWPFnueva\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AplicacionWPFnueva\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T10:49:27.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "D:\\Users\\Nestor\\Documents\\2DAM\\Interfaces\\BibliotecaClases\\EjercicioForms\\Form1.vb",
+              "RelativeDocumentMoniker": "EjercicioForms\\Form1.vb",
+              "ToolTip": "D:\\Users\\Nestor\\Documents\\2DAM\\Interfaces\\BibliotecaClases\\EjercicioForms\\Form1.vb",
+              "RelativeToolTip": "EjercicioForms\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-02T10:49:58.811Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
