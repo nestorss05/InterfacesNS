@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\",
+  "WorkspaceRootPath": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E8A4F8A-BCCD-49D0-B33F-ADF95BAF1A4A}|EjerciciosTema8\\Ejercicio1.csproj|c:\\users\\nsanchez\\documents\\repositorios\\interfaces\\ejerciciostema8\\ejerciciostema8\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4E8A4F8A-BCCD-49D0-B33F-ADF95BAF1A4A}|EjerciciosTema8\\Ejercicio1.csproj|solutionrelative:ejerciciostema8\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E0FBBEA8-B0E0-49AD-BD7E-485452D2D0D6}|Ejercicio2\\Ejercicio2.csproj|d:\\users\\nestor\\documents\\2dam\\interfacesns\\ejerciciostema8\\ejercicio2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0FBBEA8-B0E0-49AD-BD7E-485452D2D0D6}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E8A4F8A-BCCD-49D0-B33F-ADF95BAF1A4A}|EjerciciosTema8\\Ejercicio1.csproj|c:\\users\\nsanchez\\documents\\repositorios\\interfaces\\ejerciciostema8\\ejerciciostema8\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8A4F8A-BCCD-49D0-B33F-ADF95BAF1A4A}|EjerciciosTema8\\Ejercicio1.csproj|solutionrelative:ejerciciostema8\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6981662-F74B-4B4D-BD7F-DDBEF8F898A4}|Ejercicio4\\Ejercicio4.csproj|d:\\users\\nestor\\documents\\2dam\\interfacesns\\ejerciciostema8\\ejercicio4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6981662-F74B-4B4D-BD7F-DDBEF8F898A4}|Ejercicio4\\Ejercicio4.csproj|solutionrelative:ejercicio4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "EjerciciosTema8\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml.cs",
-              "RelativeToolTip": "EjerciciosTema8\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:40:17.807Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml",
-              "RelativeDocumentMoniker": "EjerciciosTema8\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema8\\EjerciciosTema8\\MainPage.xaml",
-              "RelativeToolTip": "EjerciciosTema8\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema8\\Ejercicio2\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Ejercicio2\\MainPage.xaml",
+              "ToolTip": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema8\\Ejercicio2\\MainPage.xaml",
+              "RelativeToolTip": "Ejercicio2\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T11:40:08.607Z",
+              "WhenOpened": "2024-10-17T18:44:27.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema8\\Ejercicio4\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Ejercicio4\\MainPage.xaml",
+              "ToolTip": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema8\\Ejercicio4\\MainPage.xaml*",
+              "RelativeToolTip": "Ejercicio4\\MainPage.xaml*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T16:33:28.715Z",
               "EditorCaption": ""
             }
           ]

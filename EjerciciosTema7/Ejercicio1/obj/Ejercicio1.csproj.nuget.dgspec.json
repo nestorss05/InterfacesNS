@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio1\\Ejercicio1.csproj": {}
+    "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema7\\Ejercicio1\\Ejercicio1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio1\\Ejercicio1.csproj": {
+    "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema7\\Ejercicio1\\Ejercicio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio1\\Ejercicio1.csproj",
+        "projectUniqueName": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema7\\Ejercicio1\\Ejercicio1.csproj",
         "projectName": "Ejercicio1",
-        "projectPath": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio1\\Ejercicio1.csproj",
-        "packagesPath": "C:\\Users\\nsanchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nsanchez\\Documents\\Repositorios\\Interfaces\\EjerciciosTema7\\Ejercicio1\\obj\\",
+        "projectPath": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema7\\Ejercicio1\\Ejercicio1.csproj",
+        "packagesPath": "C:\\Users\\soyne\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema7\\Ejercicio1\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nsanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\soyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
