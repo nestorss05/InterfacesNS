@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio5.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <ListView>
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Apple</x:String>
+                        <x:String>Orange</x:String>
+                        <x:String>Banana</x:String>
+                        <x:String>Grape</x:String>
+                        <x:String>Mango</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
