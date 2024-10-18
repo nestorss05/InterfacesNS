@@ -1,1 +1,1 @@
-D:\Users\Nestor\Documents\2DAM\InterfacesNS\EjerciciosTema8\Ejercicio1\Ejercicio1.csproj;x64
+C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio1\Ejercicio1.csproj;x64
