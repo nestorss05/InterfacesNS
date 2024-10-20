@@ -37,6 +37,9 @@ namespace Ejercicio5
             personas.Add(new clsPersona() { id = 8, nombre = "Andres", apellidos = "Castro", fechaNac = new DateTime(1983, 02, 14).ToString("dd/MM/yyyy") });
             personas.Add(new clsPersona() { id = 9, nombre = "Isabella", apellidos = "Morales", fechaNac = new DateTime(1994, 09, 20).ToString("dd/MM/yyyy") });
             personas.Add(new clsPersona() { id = 10, nombre = "Nicolas", apellidos = "Herrera", fechaNac = new DateTime(1989, 06, 10).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 11, nombre = "Nicolas", apellidos = "Herrera", fechaNac = new DateTime(1989, 06, 10).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 12, nombre = "Nicolas", apellidos = "Herrera", fechaNac = new DateTime(1989, 06, 10).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 13, nombre = "Nicolas", apellidos = "Herrera", fechaNac = new DateTime(1989, 06, 10).ToString("dd/MM/yyyy") });
             PersonaView.ItemsSource = personas;
         }
 

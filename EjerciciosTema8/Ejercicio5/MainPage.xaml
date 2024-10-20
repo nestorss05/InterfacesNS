@@ -11,26 +11,30 @@
                 <Button Text="Editar" Margin="5"></Button>
                 <Button Text="Eliminar" Margin="5"></Button>
             </HorizontalStackLayout>
-            <ListView x:Name="PersonaView" 
-                      ItemsSource="{Binding getListadoCompletoPersonas}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell TextColor="White">
-                            <TextCell.Text>
-                                <MultiBinding StringFormat="{}{0}. {1} {2}, {3}">
-                                    <Binding Path="id"/>
-                                    <Binding Path="nombre"/>
-                                    <Binding Path="apellidos"/>
-                                    <Binding Path="fechaNac"/>
-                                </MultiBinding>
-                            </TextCell.Text>
-                        </TextCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-            <AbsoluteLayout>
-                <Button Text="Nuevo" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds=".95,.95, 80, 80"></Button>
-            </AbsoluteLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ListView x:Name="PersonaView" 
+                      ItemsSource="{Binding getListadoCompletoPersonas}"
+                          Grid.Row="0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell TextColor="DarkBlue">
+                                <TextCell.Text>
+                                    <MultiBinding StringFormat="{}{0}. {1} {2}, {3}">
+                                        <Binding Path="id"/>
+                                        <Binding Path="nombre"/>
+                                        <Binding Path="apellidos"/>
+                                        <Binding Path="fechaNac"/>
+                                    </MultiBinding>
+                                </TextCell.Text>
+                            </TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button Text="Nuevo" Grid.Row="0" HorizontalOptions="End" VerticalOptions="End"></Button>
+            </Grid>
         </VerticalStackLayout>
     </ScrollView>
 
