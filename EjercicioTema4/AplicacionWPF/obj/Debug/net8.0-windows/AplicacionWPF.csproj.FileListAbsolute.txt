@@ -1,4 +1,0 @@
-D:\Users\Nestor\Documents\2DAM\Interfaces\BibliotecaClases\AplicacionWPF\obj\Debug\net8.0-windows\AplicacionWPF.csproj.AssemblyReference.cache
-D:\Users\Nestor\Documents\2DAM\Interfaces\BibliotecaClases\AplicacionWPF\obj\Debug\net8.0-windows\MainWindow.g.cs
-D:\Users\Nestor\Documents\2DAM\Interfaces\BibliotecaClases\AplicacionWPF\obj\Debug\net8.0-windows\AplicacionWPF_MarkupCompile.cache
-D:\Users\Nestor\Documents\2DAM\Interfaces\BibliotecaClases\AplicacionWPF\obj\Debug\net8.0-windows\AplicacionWPF_MarkupCompile.lref
