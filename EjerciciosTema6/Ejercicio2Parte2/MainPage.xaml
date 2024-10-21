@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2Parte2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="Ejercicio 2: Parte 2"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            <VerticalStackLayout>
+                <HorizontalStackLayout>
+                    <CheckBox CheckedChanged="OnCheckBoxCheckedChanged"/>
+                    <Label Text="Activar mensaje" VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+            <StackLayout>
+                <Label Text="¿Es posible aprobar Interfaces?" />
+                <RadioButton Content="Si" IsChecked="true" />
+                <RadioButton Content="No" />
+                <RadioButton Content="Es posible" />
+                <RadioButton Content="(se lo piensa)"/>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio6.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="15">
+            <HorizontalStackLayout>
+                <Label Text="Nombre: " VerticalTextAlignment="Center"/>
+                <Entry WidthRequest="200" x:Name="Nombre"></Entry>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Apellidos: " VerticalTextAlignment="Center"/>
+                <Entry WidthRequest="200" x:Name="Apellidos"></Entry>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Fecha de nacimiento: " VerticalTextAlignment="Center"/>
+                <DatePicker x:Name="FechaNac" Format="dd/MM/yyyy"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <ImageButton Source="create.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" Clicked="BotonCrear_Clicked"></ImageButton>
+                <ImageButton Source="save.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" Clicked="BotonGuardar_Clicked"></ImageButton>
+                <ImageButton Source="delete.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" Clicked="BotonEliminar_Clicked"></ImageButton>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label x:Name="Resultado" Text="" VerticalTextAlignment="Center"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="EjerciciosTema7.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:EjerciciosTema7"
+    xmlns:views="clr-namespace:EjerciciosTema7.Views"
+    Title="EjerciciosTema7">
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+        <!--
+        Shell has implicit conversion operators that enable the Shell visual hierarchy to be simplified.
+        This is possible because a subclassed Shell object can only ever contain a FlyoutItem object or a TabBar object,
+        which can only ever contain Tab objects, which can only ever contain ShellContent objects.
+
+        The implicit conversion automatically wraps the ShellContent objects below in Tab objects.
+        -->
+        <ShellContent
+            Title="Oreo Clasica"
+            ContentTemplate="{DataTemplate views:OreoClassic}"
+            Route="MainPage" />
+        <ShellContent
+            Title="Oreo Double"
+            ContentTemplate="{DataTemplate views:OreoDouble}"
+            Route="MainPage" />
+        <ShellContent
+            Title="Oreo Remix"
+            ContentTemplate="{DataTemplate views:OreoRemix}"
+            Route="MainPage" />
+    </FlyoutItem>
+
+</Shell>
