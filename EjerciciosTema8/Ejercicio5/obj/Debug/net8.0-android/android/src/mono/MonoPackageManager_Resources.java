@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "Ejercicio5.dll" comes first in this list. */
-		"Ejercicio5.dll",
+		/* We need to ensure that "Ejercicio5UI.dll" comes first in this list. */
+		"Ejercicio5UI.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",

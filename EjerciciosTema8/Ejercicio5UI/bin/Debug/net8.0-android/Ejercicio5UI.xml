@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ejercicio5UI</name>
+    </assembly>
+    <members>
+        <member name="P:Ejercicio5UI.MainPage.getListadoCompletoPersonas">
+            <summary>
+            Función que nos devuelve un listado de todas las personas
+            </summary>
+            <returns>Listado de personas</returns>
+        </member>
+    </members>
+</doc>

@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace Ejercicio5
+namespace Ejercicio5UI
 {
     public partial class MainPage : ContentPage
     {
@@ -37,9 +37,13 @@ namespace Ejercicio5
             personas.Add(new clsPersona() { id = 8, nombre = "Andres", apellidos = "Castro", fechaNac = new DateTime(1983, 02, 14).ToString("dd/MM/yyyy") });
             personas.Add(new clsPersona() { id = 9, nombre = "Isabella", apellidos = "Morales", fechaNac = new DateTime(1994, 09, 20).ToString("dd/MM/yyyy") });
             personas.Add(new clsPersona() { id = 10, nombre = "Nicolas", apellidos = "Herrera", fechaNac = new DateTime(1989, 06, 10).ToString("dd/MM/yyyy") });
-            personas.Add(new clsPersona() { id = 11, nombre = "Nicolas", apellidos = "Herrera", fechaNac = new DateTime(1989, 06, 10).ToString("dd/MM/yyyy") });
-            personas.Add(new clsPersona() { id = 12, nombre = "Nicolas", apellidos = "Herrera", fechaNac = new DateTime(1989, 06, 10).ToString("dd/MM/yyyy") });
-            personas.Add(new clsPersona() { id = 13, nombre = "Nicolas", apellidos = "Herrera", fechaNac = new DateTime(1989, 06, 10).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 11, nombre = "Nicolas", apellidos = "Superbigote", fechaNac = new DateTime(1962, 11, 23).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 12, nombre = "Elon", apellidos = "Mok", fechaNac = new DateTime(1971, 06, 28).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 13, nombre = "Hugo", apellidos = "Destructor", fechaNac = new DateTime(1954, 07, 28).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 14, nombre = "Eusebio", apellidos = "Fernandez", fechaNac = new DateTime(1966, 06, 26).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 15, nombre = "Rafael", apellidos = "Paelleras", fechaNac = new DateTime(1959, 10, 24).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 16, nombre = "Elena", apellidos = "Nito", fechaNac = new DateTime(1977, 07, 07).ToString("dd/MM/yyyy") });
+            personas.Add(new clsPersona() { id = 17, nombre = "Hermenegildo", apellidos = "Iglesias", fechaNac = new DateTime(1980, 12, 08).ToString("dd/MM/yyyy") });
             PersonaView.ItemsSource = personas;
         }
 

@@ -2088,3 +2088,6 @@ D:\Users\Nestor\Documents\2DAM\InterfacesNS\EjerciciosTema8\Ejercicio5\obj\Debug
 D:\Users\Nestor\Documents\2DAM\InterfacesNS\EjerciciosTema8\Ejercicio5\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Users\Nestor\Documents\2DAM\InterfacesNS\EjerciciosTema8\Ejercicio5\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Users\Nestor\Documents\2DAM\InterfacesNS\EjerciciosTema8\Ejercicio5\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio5\obj\Debug\net8.0-android\resizetizer\r\drawable\create.png
+C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio5\obj\Debug\net8.0-android\resizetizer\r\drawable\delete.png
+C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio5\obj\Debug\net8.0-android\resizetizer\r\drawable\edit.png

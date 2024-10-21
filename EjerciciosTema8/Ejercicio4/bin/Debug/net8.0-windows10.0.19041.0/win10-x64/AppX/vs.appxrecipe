@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-18T10:27:37.359</Modified>
+      <Modified>2024-10-21T11:55:58.888</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-18T10:27:37.269</Modified>
+      <Modified>2024-10-21T11:55:58.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Ejercicio4.runtimeconfig.json">
       <PackagePath>Ejercicio4.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-18T10:27:37.218</Modified>
+      <Modified>2024-10-21T11:55:58.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Ejercicio4.dll">
       <PackagePath>Ejercicio4.dll</PackagePath>
-      <Modified>2024-10-18T10:27:36.967</Modified>
+      <Modified>2024-10-21T11:55:58.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio4.exe</PackagePath>
-      <Modified>2024-10-18T10:27:36.970</Modified>
+      <Modified>2024-10-21T11:55:58.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,243 +55,243 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-10-18T06:17:59.044</Modified>
+      <Modified>2024-10-18T11:56:36.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-10-18T06:17:59.044</Modified>
+      <Modified>2024-10-18T11:56:36.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-10-18T06:17:59.044</Modified>
+      <Modified>2024-10-18T11:56:36.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-10-18T06:17:59.045</Modified>
+      <Modified>2024-10-18T11:56:36.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-10-18T06:17:59.046</Modified>
+      <Modified>2024-10-18T11:56:36.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-10-18T06:17:59.020</Modified>
+      <Modified>2024-10-18T06:17:57.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-10-18T06:17:59.021</Modified>
+      <Modified>2024-10-18T06:17:57.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-10-18T09:49:01.748</Modified>
+      <Modified>2024-10-21T11:26:52.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.741</Modified>
+      <Modified>2024-10-21T11:26:52.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.741</Modified>
+      <Modified>2024-10-21T11:26:52.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.741</Modified>
+      <Modified>2024-10-21T11:26:52.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.740</Modified>
+      <Modified>2024-10-21T11:26:52.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.740</Modified>
+      <Modified>2024-10-21T11:26:52.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.745</Modified>
+      <Modified>2024-10-21T11:26:52.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.745</Modified>
+      <Modified>2024-10-21T11:26:52.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.744</Modified>
+      <Modified>2024-10-21T11:26:52.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.745</Modified>
+      <Modified>2024-10-21T11:26:52.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.745</Modified>
+      <Modified>2024-10-21T11:26:52.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.746</Modified>
+      <Modified>2024-10-21T11:26:52.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.746</Modified>
+      <Modified>2024-10-21T11:26:52.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.745</Modified>
+      <Modified>2024-10-21T11:26:52.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.746</Modified>
+      <Modified>2024-10-21T11:26:52.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.745</Modified>
+      <Modified>2024-10-21T11:26:52.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.748</Modified>
+      <Modified>2024-10-21T11:26:52.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.747</Modified>
+      <Modified>2024-10-21T11:26:52.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.747</Modified>
+      <Modified>2024-10-21T11:26:52.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.747</Modified>
+      <Modified>2024-10-21T11:26:52.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.747</Modified>
+      <Modified>2024-10-21T11:26:52.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.747</Modified>
+      <Modified>2024-10-21T11:26:52.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.747</Modified>
+      <Modified>2024-10-21T11:26:52.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.746</Modified>
+      <Modified>2024-10-21T11:26:52.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.746</Modified>
+      <Modified>2024-10-21T11:26:52.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.746</Modified>
+      <Modified>2024-10-21T11:26:52.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.743</Modified>
+      <Modified>2024-10-21T11:26:52.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.742</Modified>
+      <Modified>2024-10-21T11:26:52.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.742</Modified>
+      <Modified>2024-10-21T11:26:52.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.742</Modified>
+      <Modified>2024-10-21T11:26:52.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.742</Modified>
+      <Modified>2024-10-21T11:26:52.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.743</Modified>
+      <Modified>2024-10-21T11:26:52.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.743</Modified>
+      <Modified>2024-10-21T11:26:52.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.743</Modified>
+      <Modified>2024-10-21T11:26:52.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.743</Modified>
+      <Modified>2024-10-21T11:26:52.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.743</Modified>
+      <Modified>2024-10-21T11:26:52.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.744</Modified>
+      <Modified>2024-10-21T11:26:52.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.744</Modified>
+      <Modified>2024-10-21T11:26:52.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.744</Modified>
+      <Modified>2024-10-21T11:26:52.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.744</Modified>
+      <Modified>2024-10-21T11:26:52.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.744</Modified>
+      <Modified>2024-10-21T11:26:52.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.742</Modified>
+      <Modified>2024-10-21T11:26:52.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.742</Modified>
+      <Modified>2024-10-21T11:26:52.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.741</Modified>
+      <Modified>2024-10-21T11:26:52.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.741</Modified>
+      <Modified>2024-10-21T11:26:52.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.741</Modified>
+      <Modified>2024-10-21T11:26:52.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.740</Modified>
+      <Modified>2024-10-21T11:26:52.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.739</Modified>
+      <Modified>2024-10-21T11:26:52.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.739</Modified>
+      <Modified>2024-10-21T11:26:52.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.739</Modified>
+      <Modified>2024-10-21T11:26:52.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-10-18T09:49:01.739</Modified>
+      <Modified>2024-10-21T11:26:52.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\juan_tactico.scale-100.jpg">
       <PackagePath>juan_tactico.scale-100.jpg</PackagePath>
-      <Modified>2024-10-18T09:49:01.740</Modified>
+      <Modified>2024-10-21T11:26:52.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\Documents\Repositorios\InterfacesNS\EjerciciosTema8\Ejercicio4\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Ejercicio4.deps.json">
       <PackagePath>Ejercicio4.deps.json</PackagePath>
-      <Modified>2024-10-18T10:27:37.216</Modified>
+      <Modified>2024-10-21T11:55:58.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nsanchez\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -1,9 +1,9 @@
-Ejercicio5.MainActivity, Ejercicio5;crc648c90e66f79e5c7ca.MainActivity
-Ejercicio5.MainActivity;crc648c90e66f79e5c7ca.MainActivity
-ejercicio5.MainActivity;crc648c90e66f79e5c7ca.MainActivity
-Ejercicio5.MainApplication, Ejercicio5;crc648c90e66f79e5c7ca.MainApplication
-Ejercicio5.MainApplication;crc648c90e66f79e5c7ca.MainApplication
-ejercicio5.MainApplication;crc648c90e66f79e5c7ca.MainApplication
+Ejercicio5.MainActivity, Ejercicio5UI;crc64083c99a123d81e1c.MainActivity
+Ejercicio5.MainActivity;crc64083c99a123d81e1c.MainActivity
+ejercicio5.MainActivity;crc64083c99a123d81e1c.MainActivity
+Ejercicio5.MainApplication, Ejercicio5UI;crc64083c99a123d81e1c.MainApplication
+Ejercicio5.MainApplication;crc64083c99a123d81e1c.MainApplication
+ejercicio5.MainApplication;crc64083c99a123d81e1c.MainApplication
 GoogleGson.IExclusionStrategy, GoogleGson;com.google.gson.ExclusionStrategy
 GoogleGson.IExclusionStrategy;com.google.gson.ExclusionStrategy
 com.google.gson.ExclusionStrategy;com.google.gson.ExclusionStrategy

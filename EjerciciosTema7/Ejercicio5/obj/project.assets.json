@@ -33049,24 +33049,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\soyne\\.nuget\\packages\\": {},
+    "C:\\Users\\nsanchez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema7\\Ejercicio5\\Ejercicio5.csproj",
+      "projectUniqueName": "C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema7\\Ejercicio5\\Ejercicio5.csproj",
       "projectName": "Ejercicio5",
-      "projectPath": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema7\\Ejercicio5\\Ejercicio5.csproj",
-      "packagesPath": "C:\\Users\\soyne\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Nestor\\Documents\\2DAM\\InterfacesNS\\EjerciciosTema7\\Ejercicio5\\obj\\",
+      "projectPath": "C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema7\\Ejercicio5\\Ejercicio5.csproj",
+      "packagesPath": "C:\\Users\\nsanchez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nsanchez\\Documents\\Repositorios\\InterfacesNS\\EjerciciosTema7\\Ejercicio5\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\soyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nsanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
