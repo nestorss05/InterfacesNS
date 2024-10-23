@@ -3,26 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejercicio5UI.MainPage">
 
-    <AbsoluteLayout>
-        <ImageButton Source="edit.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" AbsoluteLayout.LayoutBounds="0, 0, 80, 80"></ImageButton>
-        <ImageButton Source="delete.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" AbsoluteLayout.LayoutBounds="60, 0, 80, 80"></ImageButton>
-        <CollectionView x:Name="PersonaView" ItemsSource="{Binding getListadoCompletoPersonas}" AbsoluteLayout.LayoutBounds="1, 100, 1000, 1000">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Label TextColor="DarkCyan" FontSize="20">
-                        <Label.Text>
-                            <MultiBinding StringFormat="{}{0}. {1} {2}, {3}">
-                                <Binding Path="id"/>
-                                <Binding Path="nombre"/>
-                                <Binding Path="apellidos"/>
-                                <Binding Path="fechaNac"/>
-                            </MultiBinding>
-                        </Label.Text>
-                    </Label>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-        <ImageButton Source="create.png" MaximumWidthRequest="80" MaximumHeightRequest="80" Margin="5" AbsoluteLayout.LayoutBounds="280, 580, 80, 80"></ImageButton>
-    </AbsoluteLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2.5*"></RowDefinition>
+            <RowDefinition Height="25*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <HorizontalStackLayout Grid.Row="0">
+            <ImageButton Source="edit.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" HorizontalOptions="Start" VerticalOptions="Start"></ImageButton>
+            <ImageButton Source="delete.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" HorizontalOptions="Start" VerticalOptions="Start"></ImageButton>
+        </HorizontalStackLayout>
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout>
+                <ListView x:Name="PersonaView" ItemsSource="{Binding getListadoCompletoPersonas}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Margin="10">
+                                    <Label TextColor="DarkCyan" FontSize="22">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="{}{0}. {1} {2}, {3}">
+                                                <Binding Path="id"/>
+                                                <Binding Path="nombre"/>
+                                                <Binding Path="apellidos"/>
+                                                <Binding Path="fechaNac"/>
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </VerticalStackLayout>
+        </ScrollView>
+        <ImageButton Source="create.png" MaximumWidthRequest="80" MaximumHeightRequest="80" Margin="5" HorizontalOptions="End" VerticalOptions="End" Grid.Row="1"></ImageButton>
+    </Grid>
 
 </ContentPage>
