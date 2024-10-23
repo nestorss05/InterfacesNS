@@ -63,6 +63,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\Ejercicio5DAL\Ejercicio5DAL.csproj" />
 	  <ProjectReference Include="..\Ejercicio5Ent\Ejercicio5Ent.csproj" />
 	</ItemGroup>
 

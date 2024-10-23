@@ -19,7 +19,7 @@
                         <DataTemplate>
                             <ViewCell>
                                 <StackLayout Margin="10">
-                                    <Label TextColor="DarkCyan" FontSize="22">
+                                    <Label FontSize="22">
                                         <Label.Text>
                                             <MultiBinding StringFormat="{}{0}. {1} {2}, {3}">
                                                 <Binding Path="id"/>
