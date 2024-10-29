@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ejercicio5Ent
 {
+    /// <summary>
+    /// Clase que guarda las propiedades de la persona
+    /// </summary>
     public class clsPersona
     {
         public int id { get; set; }

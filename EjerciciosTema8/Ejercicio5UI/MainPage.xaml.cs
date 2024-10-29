@@ -7,6 +7,9 @@ namespace Ejercicio5UI
     public partial class MainPage : ContentPage
     {
 
+        /// <summary>
+        /// Llama a la lista de personas
+        /// </summary>
         public MainPage()
         {
             InitializeComponent();
