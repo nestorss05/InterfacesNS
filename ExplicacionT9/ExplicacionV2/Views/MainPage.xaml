@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:ExplicacionV2.ViewModels"
+             x:Class="ExplicacionV2.Views.MainPage">
+    <ContentPage.BindingContext>
+        <vmodel:EdadVM/>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Entry Placeholder="Fecha de Nacimiento" Text="{Binding FechaNac, Mode=TwoWay}"/>
+            <Label Text="{Binding Edad}"></Label>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
