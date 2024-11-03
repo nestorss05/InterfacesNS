@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:EjercicioFinalT8.Views"
+             x:Class="EjercicioFinalT8.Views.Tabs"
+            Title="Cliente"
+            BarBackgroundColor = "Goldenrod"
+            BarTextColor="White"
+            SelectedTabColor="DarkGoldenrod"
+            UnselectedTabColor="Goldenrod" >
+    <local:Formulario></local:Formulario>
+    <local:Fotos></local:Fotos>
+    <local:Direccion></local:Direccion>
+</TabbedPage>

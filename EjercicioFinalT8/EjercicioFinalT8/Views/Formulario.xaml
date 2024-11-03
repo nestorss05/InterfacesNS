@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioFinalT8.Views.Formulario"
+             Title="Formulario">
+    <Grid VerticalOptions="Start" ColumnDefinitions="*, Auto">
+        <VerticalStackLayout HorizontalOptions="Start">
+            <Label Text="Expediente"
+                   Padding="12"
+                   FontSize="32"/>
+            <Entry x:Name="nombre"
+                   Placeholder="Nombre"
+                   Text="Hector Salamanca"
+                   MaximumWidthRequest="600"
+                   Margin="6"/>
+            <Entry x:Name="direccion"
+                   Placeholder="Direccion"
+                   Text="Plaza Circular 1, Valladolid"
+                   MaximumWidthRequest="600"
+                   Margin="6"/>
+            <Entry x:Name="telefono"
+                   Placeholder="Telefono"
+                   Text="600000000"
+                   MaximumWidthRequest="600"
+                   Margin="6"/>
+            <Entry x:Name="ingeniero"
+                   Placeholder="Ingeniero"
+                   Text="Pablo Motos"
+                   MaximumWidthRequest="600"
+                   Margin="6"/>
+            <HorizontalStackLayout Padding="12" MaximumWidthRequest="100" HorizontalOptions="Start">
+                <Switch x:Name="esApto"
+                        IsToggled="true"/>
+                <Label Text="Apto" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+        <StackLayout HorizontalOptions="End" Grid.Column="1">
+            <Image Source="usuario.png" 
+                   HeightRequest="180" 
+                   WidthRequest="180"
+                   Margin="20"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

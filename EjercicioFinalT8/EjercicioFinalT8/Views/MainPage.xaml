@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioFinalT8.Views.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+            <Label Text="SOLAMAT" 
+                   HorizontalOptions="Center"/>
+            <Entry x:Name="usuario"
+                   Placeholder="Usuario"
+                   MaximumWidthRequest="320"/>
+            <Entry x:Name="password"
+                   Placeholder="Contraseña"
+                   MaximumWidthRequest="320"
+                   IsPassword="True"/>
+            <Button x:Name="boton"
+                    Text="Iniciar Sesion" 
+                    MaximumWidthRequest="320"
+                    Clicked="boton_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
