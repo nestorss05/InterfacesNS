@@ -8,8 +8,9 @@
             Padding="30,0"
             Spacing="25"
             VerticalOptions="Center">
-            <Label Text="SOLAMAT" 
-                   HorizontalOptions="Center"/>
+            <Image Source="solamatsincapa.png" 
+                   MaximumHeightRequest="160" 
+                   Margin="8"/>
             <Entry x:Name="usuario"
                    Placeholder="Usuario"
                    MaximumWidthRequest="320"/>
@@ -20,6 +21,7 @@
             <Button x:Name="boton"
                     Text="Iniciar Sesion" 
                     MaximumWidthRequest="320"
+                    BackgroundColor="Goldenrod"
                     Clicked="boton_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>

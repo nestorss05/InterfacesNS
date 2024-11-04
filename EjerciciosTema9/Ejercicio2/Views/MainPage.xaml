@@ -12,8 +12,8 @@
             Padding="30,0"
             Spacing="25">
 
-            <Entry x:Name="nombreEntry" Text="{Binding Nombre, Mode=TwoWay}"/>
-            <Label x:Name="nombreLabel" Text="{Binding NombreCompeto}"/>
+            <Entry Placeholder="Nombre" Text="{Binding Nombre, Mode=TwoWay}"/>
+            <Label Text="{Binding NombreCompleto}"/>
 
         </VerticalStackLayout>
     </ScrollView>

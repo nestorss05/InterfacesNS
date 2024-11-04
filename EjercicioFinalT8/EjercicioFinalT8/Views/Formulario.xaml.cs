@@ -6,4 +6,9 @@ public partial class Formulario : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void boton_Clicked(object sender, EventArgs e)
+    {
+        await DisplayAlert("Informacion", "Los datos han sido guardados", "Aceptar");
+    }
 }

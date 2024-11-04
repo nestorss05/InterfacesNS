@@ -28,11 +28,16 @@
                    Text="Pablo Motos"
                    MaximumWidthRequest="600"
                    Margin="6"/>
-            <HorizontalStackLayout Padding="12" MaximumWidthRequest="100" HorizontalOptions="Start">
+            <HorizontalStackLayout Padding="12" HorizontalOptions="Start">
                 <Switch x:Name="esApto"
-                        IsToggled="true"/>
+                        IsToggled="true" />
                 <Label Text="Apto" VerticalOptions="Center"/>
             </HorizontalStackLayout>
+            <Button x:Name="boton"
+                    Text="Enviar" 
+                    MaximumWidthRequest="240"
+                    BackgroundColor="Goldenrod"
+                    Clicked="boton_Clicked"/>
         </VerticalStackLayout>
         <StackLayout HorizontalOptions="End" Grid.Column="1">
             <Image Source="usuario.png" 

@@ -63,10 +63,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\EjercicioFinalT8DAL\EjercicioFinalT8DAL.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Compile Update="Views\Citas.xaml.cs">
 	    <DependentUpon>Citas.xaml</DependentUpon>
 	  </Compile>
