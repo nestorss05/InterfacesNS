@@ -1,0 +1,45 @@
+EJERCICIO 1
+
+ENT
+
+ClsPersona: Clase que contiene la información de una persona
+
+ATRIBUTOS
+- int _id
+- String _nombre
+- String _apellidos
+- DateTime _fechaNac
+
+PROPIEDADES
++ int Id (get, set)
++ String Nombre (get, set)
++ String Apellidos (get, set)
++ DateTime FechaNac (get, set)
+
+CONSTRUCTORES
++ ClsPersona()
++ ClsPersona(int id, String nombre, String apellidos, DateTime FechaNac)
+
+DAL
+
+ClsListadoDAL: muestra listados
++ List<ClsPersona> listadoPersonas: muestra un listado de personas
+
+BL
+
+ClsListadoBL: llama a ClsListadoDAL y aplica restricciones (aquí no hace falta ninguna)
++ List<ClsPersona> listadoPersonas: muestra un listado de personas, listo para aplicarle restricciones en un futuro
+
+UI
+
+ViewModel:
+ClsListadoVM: ClsPersona - muestra la pantalla donde aparece el listado
+- List<ClsPersona> personas: atributo que contiene el listado de personas final
++ List<ClsPersona> Personas: propiedad que muestra el listado de personas final
++ ClsListadoVM()
+
+Model:
+ClsListadoConBooleano: ClsPersona - información mostrada por pantalla
+- boolean _mayorEdad
++ boolean MayorEdad (get)
++ ClsListadoConBooleano(Nombre, Apellidos, MayorEdad)

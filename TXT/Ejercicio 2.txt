@@ -1,0 +1,17 @@
+EJERCICIO 2
+
+ENT
+ClsDepartamento
+- int _idDep
+- String _nombre
+
+ClsPersona
+- int _idPersona
+- String _nombre
+- String _apellidos
+
+DAL
+
+BL
+
+VM
