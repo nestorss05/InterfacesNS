@@ -1,0 +1,24 @@
+MAUI - T9 EJ4
+
+ENT
+ClsUsuario
+
+- String _nombre
+- String _apellidos
+
++ String Nombre (get, set)
++ String Apellidos (get, set)
+
+ClsUsuario()
+
+UI
+
+ViewModel - UsuarioVM: INotifyPropertyChanged
+
+- ClsUsuario usuario
+
++ String Nombre (get, set)
++ String Apellidos (get, set)
+
+- NombreN(): String
+- ApellidosN(): String

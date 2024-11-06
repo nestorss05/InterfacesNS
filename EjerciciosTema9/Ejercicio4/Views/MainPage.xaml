@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:Ejercicio4VM;assembly=Ejercicio4VM"
+             x:Class="Ejercicio4.Views.MainPage">
+
+    <ContentPage.BindingContext>
+        <vmodel:UsuarioVM></vmodel:UsuarioVM>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Entry Placeholder="Nombre" Text="{Binding Nombre}"></Entry>
+            <Entry Placeholder="Apellidos" Text="{Binding Apellidos}"></Entry>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

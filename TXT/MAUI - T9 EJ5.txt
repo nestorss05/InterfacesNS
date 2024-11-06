@@ -1,0 +1,33 @@
+MAUI - T9 EJ5
+
+ENT
+
+ClsPersona
+- int _id
+- String _nombre
+- String _apellidos
+- DateTime _fechaNac
+- String _imageUrl
+- String _direccion
+- int _telefono
+
++ int Id (get, set)
++ String Nombre (get, set)
++ String Apellidos (get, set)
++ DateTime FechaNac (get, set)
++ String ImageUrl (get, set)
++ String Direccion (get, set)
++ int Telefono (get, set)
+
+ClsPersona(id, nombre, apellidos, fechaNac, foto, direccion, telefono)
+
+DAL
+
+ClsListados
+ObservableCollection<ClsPersona>ObtenerListadoPersonas
+
+UI
+
+ViewModels
+ClsListadosVM ClsPersona - muestra la pantalla donde aparece el listado
+- ObservableCollection<ClsPersona> personas: atributo que contiene el listado de personas final

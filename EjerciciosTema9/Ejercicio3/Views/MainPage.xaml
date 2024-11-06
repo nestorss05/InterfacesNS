@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:Ejercicio3ENT;assembly=Ejercicio3ENT"
+             x:Class="Ejercicio3.Views.MainPage">
+
+    <ContentPage.BindingContext>
+        <vmodel:ClsPersona></vmodel:ClsPersona>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Entry Placeholder="Nombre" Text="{Binding Nombre, Mode=TwoWay}"/>
+            <Label Text="{Binding NombreCompleto}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
