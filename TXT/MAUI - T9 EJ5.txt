@@ -25,9 +25,11 @@ DAL
 
 ClsListados
 ObservableCollection<ClsPersona>ObtenerListadoPersonas
+ClsPersona personaElegida
 
 UI
 
 ViewModels
 ClsListadosVM ClsPersona - muestra la pantalla donde aparece el listado
-- ObservableCollection<ClsPersona> personas: atributo que contiene el listado de personas final
+- ObservableCollection<ClsPersona> personas
+- ClsPersona personaElegida

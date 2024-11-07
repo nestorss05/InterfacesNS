@@ -36,7 +36,7 @@ namespace Ejercicio5.Models
             _apellidos = apellidos;
             _fechaNac = fechaNac;
             _imageUrl = imageUrl;
-            _direccion = apellidos;
+            _direccion = direccion;
             _telefono = telefono;
         }
 
