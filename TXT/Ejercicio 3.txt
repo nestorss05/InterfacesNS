@@ -1,0 +1,62 @@
+EJERCICIO 3
+
+ENT
+
+ClsMarcas
+- int _id
+- String _marca
+
++ int Id
++ String Marca
+
+ClsMarcas()
+ClsMarcas(id, marca)
+
+ClsCoches
+- int _id
+- String _marca
+- String _modelo
+- int _anio
+- double _precio
+
++ int Id (get, set)
++ String Marca (get, set)
++ String Modelo (get, set)
++ int Anio (get, set)
++ double Precio (get, set)
+
+ClsCoches()
+ClsCoches(id, marca, modelo, anio, precio)
+
+DAL
+
+ClsListadosDAL
+List<ClsMarcas> ObtenerListadoMarcas
+ClsMarcas MarcaSeleccionada
+List<ClsCoches> ObtenerListadoCoches
+
+BL
+
+ClsListadosBL
+List<ClsMarcas> ObtenerListadoMarcas
+ClsMarcas MarcaSeleccionada
+List<ClsCoches> ObtenerListadoCoches
+
+UI
+
+ViewModel
+ClsListadosVM
+- List<ClsMarcas> listadoMarcas
+- List<ClsCoches> listadoCoches
+
++ List<ClsMarcas> ListadoMarcas (get)
++ List<ClsMarcas> listadoCoches (get)
+
+ClsListadosVM()
+
+Model
+ClsListadoCochesConMarca: ClsListadoCochesVM
+- String _marca
++ String Marca (get)
++ List<ClsCoches> ListadoCochesConMarca
++ ClsListadoCochesConMarca(ListadoCochesConMarca)

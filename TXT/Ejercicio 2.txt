@@ -1,17 +1,63 @@
-EJERCICIO 2
+EJERCICIO 2 MAUI Y ASP.NET
 
 ENT
+
 ClsDepartamento
+
 - int _idDep
 - String _nombre
 
++ int IdDep (get, set)
++ String Nombre (get, set)
+
+ClsDepartamento()
+ClsDepartamento(idDep, nombre)
+
 ClsPersona
+
 - int _idPersona
 - String _nombre
-- String _apellidos
+- int _idDep
+
++ int IdPersona (get, set)
++ String Nombre (get, set)
++ int IdDep (get, set)
+
+ClsPersona()
+ClsPersona(idPersona, nombre, idDep)
 
 DAL
 
+ClsListadosDAL
+
+List<ClsDepartamento>ObtenerListadoDepartamentos
+ClsDepartamento DepartamentoEscogido
+List<ClsDepartamento>ObtenerListadoPersonas
+
 BL
 
-VM
+ClsListadosBL
+
+List<ClsDepartamento>ObtenerListadoDepartamentos
+ClsDepartamento DepartamentoEscogido
+List<ClsDepartamento>ObtenerListadoPersonas
+
+UI
+
+ViewModel
+ClsListadosVM
+
+- List<ClsDepartamento> listadoDepartamentos
+- List<ClsPersona> listadoPersonas
+- ClsDepartamento DepartamentoEscogido
++ List<ClsDepartamento> ListadoDepartamentos (get)
++ List<ClsPersona> ListadoPersonas (get)
+ClsListadosVM()
+
+Model
+ClsListadoPersonasConNumPersonas: ClsListadoPersonasVM
+
+- int _numPersonas
++ int NumPersonas (get, set)
++ List<Personas> ListaPersonasNPers
++ ClsListadoPersonasConNumPersonas(ListaPersonasNPers)
