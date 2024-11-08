@@ -10,7 +10,6 @@ public partial class Detalles : ContentPage
 	public Detalles(ClsPersona per)
 	{
 		InitializeComponent();
-		Persona = per;
-		BindingContext = Persona;
+		BindingContext = per;
 	}
 }
