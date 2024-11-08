@@ -1,0 +1,50 @@
+EJERCICIO 4
+
+
+ENT
+
+ClsTiempo
+
+int idTiempo
+DateTime fecha
+String estado
+int grados
+double viento
+int porcentajeLluvia
+int uv
+
+int IdTiempo (get, set)
+DateTime Fecha (get, set)
+String Estado (get, set)
+int Grados (get, set)
+double Viento (get, set)
+int PorcentajeLluvia (get, set)
+int UV (get, set)
+
+ClsTiempo()
+ClsTiempo(idTiempo, fecha, estado, grados, viento, porcentajeLluvia, uv)
+
+DAL
+
+ClsListadosDAL
+
+List<ClsListado>ObtenerListadoTiempo
+ClsListado TiempoDiaEscogido
+
+BL
+
+ClsListadosBL
+
+List<ClsListado>ObtenerListadoTiempo
+ClsListado TiempoDiaEscogido
+
+UI
+
+ViewModel
+ClsListadosVM
+
++ List<ClsTiempo> ListadoTiempo (get)
++ ClsTiempo tiempoDiaEscogido
+
+ClsListadosVM()
+ClsListadosVM(int idTiempo)

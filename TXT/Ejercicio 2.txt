@@ -47,11 +47,10 @@ UI
 ViewModel
 ClsListadosVM
 
-- List<ClsDepartamento> listadoDepartamentos
-- List<ClsPersona> listadoPersonas
-- ClsDepartamento DepartamentoEscogido
++ ClsDepartamento DepartamentoEscogido
 + List<ClsDepartamento> ListadoDepartamentos (get)
 + List<ClsPersona> ListadoPersonas (get)
+
 ClsListadosVM()
 
 Model

@@ -46,11 +46,10 @@ UI
 
 ViewModel
 ClsListadosVM
-- List<ClsMarcas> listadoMarcas
-- List<ClsCoches> listadoCoches
 
 + List<ClsMarcas> ListadoMarcas (get)
-+ List<ClsMarcas> listadoCoches (get)
++ ClsMarcas marcaEscogida
++ List<ClsCoches> listadoCoches (get)
 
 ClsListadosVM()
 

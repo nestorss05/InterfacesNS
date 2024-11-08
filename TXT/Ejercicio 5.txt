@@ -1,0 +1,38 @@
+EJERCICIO 5
+
+
+ENT
+ClsFicha
+
+- int idPosicion
+- int estado
+- int color
+
++ int IdPosicion
++ int Estado
++ int Color
+
+ClsFicha()
+ClsFicha(idPosicion, estado, color)
+
+DAL
+ClsListadoDAL
+
+List<ClsFicha>MostrarTablero()
+ClsFicha FichaSeleccionada
+
+BL
+ClsListadoBL
+
+List<ClsFicha>MostrarTablero()
+ClsFicha FichaSeleccionada
+
+UI
+ViewModel
+ClsListadosVM
+
++ List<ClsFicha> Tablero (get)
++ ClsFicha fichaSeleccionada
+
+ClsListadosVM()
+ClsListadosVM(int estado)
