@@ -4,10 +4,7 @@ ENT
 
 ClsDepartamento
 
-- int _idDep
-- String _nombre
-
-+ int IdDep (get, set)
++ int IdDep (get)
 + String Nombre (get, set)
 
 ClsDepartamento()
@@ -15,11 +12,7 @@ ClsDepartamento(idDep, nombre)
 
 ClsPersona
 
-- int _idPersona
-- String _nombre
-- int _idDep
-
-+ int IdPersona (get, set)
++ int IdPersona (get)
 + String Nombre (get, set)
 + int IdDep (get, set)
 
@@ -30,19 +23,21 @@ DAL
 
 ClsListadosDAL
 
-List<ClsDepartamento>ObtenerListadoDepartamentos
-ClsDepartamento DepartamentoEscogido
-List<ClsDepartamento>ObtenerListadoPersonas
+List<ClsDepartamento>ObtenerListadoDepartamentosDAL
+List<ClsDepartamento>ObtenerListadoPersonasPorDepartamentoDAL(int idDep)
+int cantidadPersonasDepartamentoDAL(int idDep)
 
 BL
 
 ClsListadosBL
 
-List<ClsDepartamento>ObtenerListadoDepartamentos
-ClsDepartamento DepartamentoEscogido
-List<ClsDepartamento>ObtenerListadoPersonas
+List<ClsDepartamento>ObtenerListadoDepartamentosBL
+List<ClsDepartamento>ObtenerListadoPersonasPorDepartamentoBL(int idDep)
+int cantidadPersonasDepartamentoBL(int idDep)
 
 UI
+
+MAUI
 
 ViewModel
 ClsListadosVM
@@ -50,8 +45,31 @@ ClsListadosVM
 + ClsDepartamento DepartamentoEscogido
 + List<ClsDepartamento> ListadoDepartamentos (get)
 + List<ClsPersona> ListadoPersonas (get)
++ int cantidadPersonas
 
-ClsListadosVM()
+ASP.UI
+
+ViewModel
+ClsListadosVM
+
++ List<ClsDepartamento> ListadoDepartamentos (get)
++ List<ClsPersona> ListadoPersonas (get)
++ int cantidadPersonas
+ClsListadosVM() { ListadoDepartamentos = ObtenerListadoDepartamentosBL() }
+ClsListadosVM(int idDep) : base()
+{
+listadoPersonas = ObtenerListadoPersonasPorDepartamentoBL(int idDep)
+cantidadPersonas = cantidadPersonasDepartamentoBL(int idDep)
+}
+
+Controllers
+
+ListaEmpleado
+return View(new ClsListadosVM)
+
+[HttpPost]
+ListaEmpleado(int idDep)
+return View(new ClsListadosVM)
 
 Model
 ClsListadoPersonasConNumPersonas: ClsListadoPersonasVM

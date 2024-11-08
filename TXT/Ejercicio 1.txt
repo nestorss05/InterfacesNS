@@ -4,14 +4,7 @@ ENT
 
 ClsPersona: Clase que contiene la información de una persona
 
-ATRIBUTOS
-- int _id
-- String _nombre
-- String _apellidos
-- DateTime _fechaNac
-
 PROPIEDADES
-+ int Id (get, set)
 + String Nombre (get, set)
 + String Apellidos (get, set)
 + DateTime FechaNac (get, set)
@@ -33,13 +26,13 @@ ClsListadoBL: llama a ClsListadoDAL y aplica restricciones (aquí no hace falta 
 UI
 
 ViewModel:
-ClsListadoVM: ClsPersona - muestra la pantalla donde aparece el listado
-- List<ClsPersona> personas: atributo que contiene el listado de personas final
+ClsListadoVM - muestra la pantalla donde aparece el listado
 + List<ClsPersona> Personas: propiedad que muestra el listado de personas final
 + ClsListadoVM()
 
 Model:
 ClsListadoConBooleano: ClsPersona - información mostrada por pantalla
-- boolean _mayorEdad
-+ boolean MayorEdad (get)
-+ ClsListadoConBooleano(Nombre, Apellidos, MayorEdad)
++ boolean MayorEdad (get -> CalcularMayoriaEdad())
+
+ClsListadoConBooleano()
+ClsListadoConBooleano(Nombre, Apellidos, MayorEdad)
