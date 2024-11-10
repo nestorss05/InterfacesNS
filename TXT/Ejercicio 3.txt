@@ -3,9 +3,6 @@ EJERCICIO 3
 ENT
 
 ClsMarcas
-- int _id
-- String _marca
-
 + int Id
 + String Marca
 
@@ -13,13 +10,8 @@ ClsMarcas()
 ClsMarcas(id, marca)
 
 ClsCoches
-- int _id
-- String _marca
-- String _modelo
-- int _anio
-- double _precio
-
 + int Id (get, set)
++ int IdMarca (get, set)
 + String Marca (get, set)
 + String Modelo (get, set)
 + int Anio (get, set)
@@ -31,19 +23,20 @@ ClsCoches(id, marca, modelo, anio, precio)
 DAL
 
 ClsListadosDAL
-List<ClsMarcas> ObtenerListadoMarcas
-ClsMarcas MarcaSeleccionada
-List<ClsCoches> ObtenerListadoCoches
+List<ClsMarcas> ObtenerListadoMarcasDAL
+ClsMarcas MarcaSeleccionadaDAL
+List<ClsCoches> ObtenerListadoCochesDAL
 
 BL
 
 ClsListadosBL
-List<ClsMarcas> ObtenerListadoMarcas
-ClsMarcas MarcaSeleccionada
-List<ClsCoches> ObtenerListadoCoches
+List<ClsMarcas> ObtenerListadoMarcasBL
+ClsMarcas MarcaSeleccionadaBL
+List<ClsCoches> ObtenerListadoCochesBL
 
 UI
 
+MAUI
 ViewModel
 ClsListadosVM
 
@@ -53,9 +46,34 @@ ClsListadosVM
 
 ClsListadosVM()
 
+ASP.NET
+
+ViewModel
+ClsListadosVM
+
++ List<ClsMarcas> ListadoMarcas (get)
++ ClsMarcas marcaEscogida
++ List<ClsCoches> listadoCoches (get)
+
+ClsListadosVM() { ListadoMarcas = ObtenerListadoMarcasBL() }
+ClsListadosVM(int idMarca) : base()
+{
+listadoMarcas = ObtenerListadoMarcasBL()
+listadoCoches = ObtenerListadoCochesBL(int idMarca)
+}
+
 Model
 ClsListadoCochesConMarca: ClsListadoCochesVM
 - String _marca
 + String Marca (get)
 + List<ClsCoches> ListadoCochesConMarca
 + ClsListadoCochesConMarca(ListadoCochesConMarca)
+
+Controllers
+
+ListaCoches
+return View(new ClsListadosVM)
+
+[HttpPost]
+ListaCoches(int idMarca)
+return View(new ClsListadosVM)

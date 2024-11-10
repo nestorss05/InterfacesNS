@@ -4,10 +4,6 @@ EJERCICIO 5
 ENT
 ClsFicha
 
-- int idPosicion
-- int estado
-- int color
-
 + int IdPosicion
 + int Estado
 + int Color
@@ -28,6 +24,8 @@ List<ClsFicha>MostrarTablero()
 ClsFicha FichaSeleccionada
 
 UI
+
+MAUI
 ViewModel
 ClsListadosVM
 
@@ -36,3 +34,5 @@ ClsListadosVM
 
 ClsListadosVM()
 ClsListadosVM(int estado)
+
+ASP.NET

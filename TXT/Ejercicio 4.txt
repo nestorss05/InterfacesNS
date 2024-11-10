@@ -5,21 +5,13 @@ ENT
 
 ClsTiempo
 
-int idTiempo
-DateTime fecha
-String estado
-int grados
-double viento
-int porcentajeLluvia
-int uv
-
-int IdTiempo (get, set)
-DateTime Fecha (get, set)
-String Estado (get, set)
-int Grados (get, set)
-double Viento (get, set)
-int PorcentajeLluvia (get, set)
-int UV (get, set)
++ int IdTiempo (get, set)
++ DateTime Fecha (get, set)
++ String Estado (get, set)
++ int Grados (get, set)
++ double Viento (get, set)
++ int PorcentajeLluvia (get, set)
++ int UV (get, set)
 
 ClsTiempo()
 ClsTiempo(idTiempo, fecha, estado, grados, viento, porcentajeLluvia, uv)
@@ -28,17 +20,19 @@ DAL
 
 ClsListadosDAL
 
-List<ClsListado>ObtenerListadoTiempo
-ClsListado TiempoDiaEscogido
+List<ClsListado>ObtenerListadoTiempoDAL
+ClsListado TiempoDiaEscogidoDAL
 
 BL
 
 ClsListadosBL
 
-List<ClsListado>ObtenerListadoTiempo
-ClsListado TiempoDiaEscogido
+List<ClsListado>ObtenerListadoTiempoBL
+ClsListado TiempoDiaEscogidoBL
 
 UI
+
+MAUI
 
 ViewModel
 ClsListadosVM
@@ -48,3 +42,21 @@ ClsListadosVM
 
 ClsListadosVM()
 ClsListadosVM(int idTiempo)
+
+ASP.NET
+
+ClsListadosVM
+
++ List<ClsTiempo> ListadoTiempo (get)
++ ClsTiempo tiempoDiaEscogido
+
+ClsListadosVM() {ListadoTiempo = ObtenerListadoTiempoBL}
+
+Controllers
+
+ListadoTiempo
+return View(new ClsListadosVM)
+
+[HttpPost]
+ListadoTiempo(int idTiempo)
+return View(new ClsListadosVM)
