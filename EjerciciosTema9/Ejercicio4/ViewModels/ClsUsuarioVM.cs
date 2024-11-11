@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace Ejercicio4.ViewModels
 {
-    public class ClsUsuarioVM
+    public class ClsUsuarioVM : INotifyPropertyChanged
     {
         #region Atributos
         private ClsUsuario usuario = new ClsUsuario();
