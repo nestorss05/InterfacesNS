@@ -1,4 +1,4 @@
-﻿using Ejercicio5.Models;
+﻿using Ejercicio5b.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,12 +8,12 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio5.ViewModels
+namespace Ejercicio5b.ViewModels
 {
     /// <summary>
     /// Clase que sera la ViewModel de las pantallas MainPage y Detalles
     /// </summary>
-    public class ClsListadosVM: INotifyPropertyChanged
+    public class ClsListadosVM : INotifyPropertyChanged
     {
 
         private ObservableCollection<ClsPersona> listadoPersonas;
@@ -26,7 +26,9 @@ namespace Ejercicio5.ViewModels
         public ClsPersona PersonaSeleccionada
         {
             get { return personaSeleccionada; }
-            set { personaSeleccionada = value;
+            set
+            {
+                personaSeleccionada = value;
                 NotifyPropertyChanged("PersonaSeleccionada");
             }
         }

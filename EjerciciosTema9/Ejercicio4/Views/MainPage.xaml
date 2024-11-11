@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:vmodel="clr-namespace:Ejercicio4VM;assembly=Ejercicio4VM"
+             xmlns:vmodel="clr-namespace:Ejercicio4.ViewModels"
              x:Class="Ejercicio4.Views.MainPage">
 
     <ContentPage.BindingContext>
-        <vmodel:UsuarioVM></vmodel:UsuarioVM>
+        <vmodel:ClsUsuarioVM></vmodel:ClsUsuarioVM>
     </ContentPage.BindingContext>
     <ScrollView>
         <VerticalStackLayout
