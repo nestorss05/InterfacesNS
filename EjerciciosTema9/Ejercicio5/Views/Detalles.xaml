@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:Ejercicio5.ViewModels"
              x:Class="Ejercicio5.Views.Detalles"
              Title="">
 
     <ScrollView>
-        <VerticalStackLayout Padding="24">
-            <Label Text="Detalles" FontSize="32"/>
-            <Image Source="{Binding ImageUrl}" WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Margin="15">
+        <VerticalStackLayout Padding="20">
+            <Image Source="{Binding ImageUrl}" WidthRequest="100" HeightRequest="100" HorizontalOptions="Start">
                 <Image.Clip>
-                    <EllipseGeometry Center="100,100" RadiusX="100" RadiusY="100"/>
+                    <EllipseGeometry Center="50,50" RadiusX="50" RadiusY="50"/>
                 </Image.Clip>
             </Image>
-            <Label FontSize="24" Margin="10">
-                <Label.Text>
-                    <MultiBinding StringFormat="{}{0} {1}">
-                        <Binding Path="Nombre"/>
-                        <Binding Path="Apellidos"/>
-                    </MultiBinding>
-                </Label.Text>
-            </Label>
-            <Label Text="{Binding FechaNac, StringFormat='{0:dd/MM/yyyy}'}" FontSize="16" Margin="6"/>
-            <Label Text="{Binding Direccion}" FontSize="16" Margin="6"/>
-            <Label Text="{Binding Telefono}" FontSize="16" Margin="6"/>
+            <Label Text="{Binding Nombre}" FontSize="24" />
+            <Label Text="{Binding Apellidos}" FontSize="20" />
+            <Label Text="{Binding FechaNac, StringFormat='{0:dd/MM/yyyy}'}" FontSize="18" />
+            <Label Text="{Binding Direccion}" FontSize="18" />
+            <Label Text="{Binding Telefono}" FontSize="18" />
         </VerticalStackLayout>
     </ScrollView>
-    
 </ContentPage>

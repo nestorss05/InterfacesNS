@@ -1,5 +1,4 @@
 ﻿using Ejercicio5.Models;
-using Ejercicio5.ViewModels;
 
 namespace Ejercicio5.Views
 {
@@ -11,6 +10,12 @@ namespace Ejercicio5.Views
             InitializeComponent();
         }
 
+        private async void ViewCell_Tapped(object sender, EventArgs e)
+        {
+            var viewCell = sender as ViewCell;
+            var persona = viewCell?.BindingContext as ClsPersona;
+            await Navigation.PushAsync(new Detalles(persona));
+        }
     }
 
 }

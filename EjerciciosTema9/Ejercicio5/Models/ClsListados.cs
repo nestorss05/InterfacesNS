@@ -16,9 +16,9 @@ namespace Ejercicio5.Models
         /// Funcion que almacena la lista de personas
         /// </summary>
         /// <returns></returns>
-        public static List<ClsPersona> ObtenerListadoPersonas()
+        public static ObservableCollection<ClsPersona> ObtenerListadoPersonas()
         {
-            return new List<ClsPersona>
+            return new ObservableCollection<ClsPersona>
             {
                 new ClsPersona(1, "Eusebio", "Fernandez", new DateTime(1995, 10, 21), "https://thispersondoesnotexist.com/", "Su calle 94", 333444555),
                 new ClsPersona(2, "Alejandro", "Rios", new DateTime(1998, 11, 18), "https://thispersondoesnotexist.com/", "Su avenida 234", 123455789),

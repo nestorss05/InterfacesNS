@@ -9,11 +9,11 @@
         <vmodel:ClsListadosVM></vmodel:ClsListadosVM>
     </ContentPage.BindingContext>
     <ScrollView>
-        <HorizontalStackLayout>
-            <ListView x:Name="PersonaView" ItemsSource="{Binding ListadoPersonas}" SelectedItem="{Binding PersonaSeleccionada}">
+        <VerticalStackLayout>
+            <ListView x:Name="PersonaView" ItemsSource="{Binding ListadoPersonas}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell x:Name="{Binding Id}">
+                        <ViewCell Tapped="ViewCell_Tapped" x:Name="{Binding Id}">
                             <HorizontalStackLayout Margin="10">
                                 <Image Source="{Binding ImageUrl}" WidthRequest="64" HeightRequest="64">
                                     <Image.Clip>
@@ -33,21 +33,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <VerticalStackLayout>
-                <Image Source="{Binding PersonaSeleccionada.ImageUrl}" WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Margin="15">
-                    <Image.Clip>
-                        <EllipseGeometry Center="100,100" RadiusX="100" RadiusY="100"/>
-                    </Image.Clip>
-                </Image>
-                <HorizontalStackLayout>
-                    <Label Text="{Binding PersonaSeleccionada.Nombre}" FontSize="16" Margin="6"/>
-                    <Label Text="{Binding PersonaSeleccionada.Apellidos}" FontSize="16" Margin="6"/>
-                </HorizontalStackLayout>
-                <Label Text="{Binding PersonaSeleccionada.FechaNac, StringFormat='{0:dd/MM/yyyy}'}" FontSize="16" Margin="6"/>
-                <Label Text="{Binding PersonaSeleccionada.Direccion}" FontSize="16" Margin="6"/>
-                <Label Text="{Binding PersonaSeleccionada.Telefono}" FontSize="16" Margin="6"/>
-            </VerticalStackLayout>
-        </HorizontalStackLayout>
+        </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
