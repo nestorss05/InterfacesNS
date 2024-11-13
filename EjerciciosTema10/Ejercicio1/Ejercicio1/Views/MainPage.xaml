@@ -12,8 +12,8 @@
         <VerticalStackLayout>
             <HorizontalStackLayout>
                 <ImageButton Command="{Binding EliminarCommand}" Source="delete.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" HorizontalOptions="Start" VerticalOptions="Start"></ImageButton>
-                <Entry Placeholder="Buscar..." MinimumWidthRequest="300" HeightRequest="40"/>
-                <ImageButton Source="search.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" HorizontalOptions="Start" VerticalOptions="Start"></ImageButton>
+                <Entry Text="{Binding Texto}" Placeholder="Buscar..." MinimumWidthRequest="300" HeightRequest="40"/>
+                <ImageButton Command="{Binding SearchCommand}" Source="search.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" HorizontalOptions="Start" VerticalOptions="Start"></ImageButton>
             </HorizontalStackLayout>
             <HorizontalStackLayout>
                 <ListView x:Name="PersonaView" ItemsSource="{Binding ListadoPersonas}" SelectedItem="{Binding PersonaSeleccionada}">
