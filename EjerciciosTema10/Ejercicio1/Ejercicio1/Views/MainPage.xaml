@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:Ejercicio1.ViewModels"
+             x:Class="Ejercicio1.Views.MainPage"
+             Title="">
+
+    <ContentPage.BindingContext>
+        <vmodel:ClsListadosVM></vmodel:ClsListadosVM>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout>
+            <HorizontalStackLayout>
+                <ImageButton Command="{Binding EliminarCommand}" Source="delete.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" HorizontalOptions="Start" VerticalOptions="Start"></ImageButton>
+                <Entry Placeholder="Buscar..." MinimumWidthRequest="300" HeightRequest="40"/>
+                <ImageButton Source="search.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" HorizontalOptions="Start" VerticalOptions="Start"></ImageButton>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <ListView x:Name="PersonaView" ItemsSource="{Binding ListadoPersonas}" SelectedItem="{Binding PersonaSeleccionada}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell x:Name="{Binding Id}">
+                                <HorizontalStackLayout Margin="10">
+                                    <Image Source="{Binding ImageUrl}" WidthRequest="64" HeightRequest="64">
+                                        <Image.Clip>
+                                            <EllipseGeometry Center="32,32" RadiusX="32" RadiusY="32"/>
+                                        </Image.Clip>
+                                    </Image>
+                                    <Label FontSize="24" Margin="12" VerticalTextAlignment="Center">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="{}{0} {1}">
+                                                <Binding Path="Nombre"/>
+                                                <Binding Path="Apellidos"/>
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+                                </HorizontalStackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <VerticalStackLayout>
+                    <Image Source="{Binding PersonaSeleccionada.ImageUrl}" WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Margin="15">
+                        <Image.Clip>
+                            <EllipseGeometry Center="100,100" RadiusX="100" RadiusY="100"/>
+                        </Image.Clip>
+                    </Image>
+                    <HorizontalStackLayout>
+                        <Label Text="{Binding PersonaSeleccionada.Nombre}" FontSize="16" Margin="6"/>
+                        <Label Text="{Binding PersonaSeleccionada.Apellidos}" FontSize="16" Margin="6"/>
+                    </HorizontalStackLayout>
+                    <Label Text="{Binding PersonaSeleccionada.FechaNac, StringFormat='{0:dd/MM/yyyy}'}" FontSize="16" Margin="6"/>
+                    <Label Text="{Binding PersonaSeleccionada.Direccion}" FontSize="16" Margin="6"/>
+                    <Label Text="{Binding PersonaSeleccionada.Telefono}" FontSize="16" Margin="6"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
