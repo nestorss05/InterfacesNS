@@ -1,0 +1,53 @@
+ENT
+
+ClsPersona: Clase que contiene la información de una persona
+
+- int _id
+- String _nombre
+- String _apellidos
+- DateTime _fechaNac
+- String _imageUrl
+- String _dirección
+- int _telefono
+
++ int Id (get)
++ String Nombre (get, set)
++ String Apellidos (get, set)
++ DateTime FechaNac (get, set)
++ String ImageUrl (get, set)
++ String Direccion (get, set)
++ int Telefono (get, set)
+
++ ClsPersona(int id, String nombre, String apellidos, DateTime FechaNac, String ImageUrl, String Direccion, int Telefono)
+
+DAL
+
+ClsListados: genera y devuelve listados
+
++ static List<ClsPersona) ObtenerListadoPersonas(): genera y devuelve un listado de personas
+
+UI
+
+ViewModels - ClsListadosVM: INotifyPropertyChanged: muestra la pantalla donde aparece el listado y la información de la persona seleccionada, en caso de estar seleccionada
+
+- ObservableCollection<ClsPersona> listadoPersonas
+- ObservableCollection<ClsPersona> listadoPersonasBase
+- ClsPersona personaSeleccionada
+- DelegateCommand eliminarCommand
+- DelegateCommand searchCommand
+- String texto
+
++ ObservableCollection<ClsPersona> ListadoPersonas (get)
++ ClsPersona PersonaSeleccionada (get, set)
++ DelegateCommand EliminarCommand (get)
++ DelegateCommand SearchCommand (get)
++ String Texto (get, set)
+
+ClsListadosVM()
+
+- async EliminarCommand_Executed()
+- SearchCommand_Executed()
+- EliminarCommand_CanExecute(): bool
+- SearchCommand_CanExecute(): bool
+
+Views: MainPage.xaml

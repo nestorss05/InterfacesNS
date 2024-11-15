@@ -8,6 +8,8 @@ namespace Ejercicio5DAL
 
         /// <summary>
         /// Función que nos devuelve un listado de todas las personas
+        /// pre: ninguna
+        /// post: siempre devuelve un ObservableCollection con 22 personas
         /// </summary>
         /// <returns>Listado de personas</returns>
         public static ObservableCollection<clsPersona> getListadoCompletoPersonas() {
