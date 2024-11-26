@@ -1,0 +1,56 @@
+Ejercicio 1 Neo
+
+ENT
+
+ClsPersona
+
++ String Nombre (get, set)
++ String Apellidos (get, set)
++ DateTime FechaNac (get, set)
+
++ ClsPersona()
++ ClsPersona(int id, String nombre, String apellidos, DateTime FechaNac)
+
+DAL
+
+ClsListadoDAL
++ static List<ClsPersona> ListadoPersonasDAL()
+
+BL
+
+ClsListadoBL
++ static List<ClsPersona> ListadoPersonasBL()
+
+UI (MAUI)
+
+Models
+ClsListadoConBooleano: ClsPersona
+- boolean mayorEdad
++ boolean MayorEdad (get)
+
+ClsListadosConBooleano(ClsPersona per) : base() {
+this.Nombre = per.Nombre
+this.Apellidos = per.Apellidos
+this.FechaNac = per.FechaNac
+mayorEdad = esMayorEdad(per)
+}
+
+- bool esMayorEdad(ClsPersona per)
+
+ViewModels
+ClsListadosVM
+
+- List<ClsPersona> personas
+- List<ClsListadoConBooleano> personasConBooleano
++ List<ClsListadoConBooleano> personasConBooleano (get)
+
+ClsListadosVM() { 
+personas = ListadoPersonasBL() 
+personasFull = new List<ClsListadosConBooleano>()
+montarListado()
+}
+
+montarListado()
+
+Views
+/Views/MainPage.xaml
