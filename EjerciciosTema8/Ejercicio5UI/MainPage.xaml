@@ -13,7 +13,6 @@
             <ImageButton Source="delete.png" MaximumWidthRequest="60" MaximumHeightRequest="60" Margin="5" HorizontalOptions="Start" VerticalOptions="Start"></ImageButton>
         </HorizontalStackLayout>
         <ScrollView Grid.Row="1">
-            <VerticalStackLayout>
                 <ListView x:Name="PersonaView" ItemsSource="{Binding getListadoCompletoPersonas}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -34,7 +33,6 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-            </VerticalStackLayout>
         </ScrollView>
         <ImageButton Source="create.png" MaximumWidthRequest="80" MaximumHeightRequest="80" Margin="5" HorizontalOptions="End" VerticalOptions="End" Grid.Row="1"></ImageButton>
     </Grid>
