@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Detalles de mision";
+}
+@model ClsCandidatosVM
+
+<div class="text-center">
+    <h1 class="display-4">Detalles de la persona en cuestion</h1>
+    <h2>@Model.CandidatoEscogido.Nombre @Model.CandidatoEscogido.Apellidos</h2>
+    <p>Direccion: @Model.CandidatoEscogido.Direccion</p>
+    <p>Telefono: @Model.CandidatoEscogido.Telefono</p>
+    <p>Edad: @Model.CandidatoEscogido.Edad</p>
+    <p>Recompensa: @Model.CandidatoEscogido.Recompensa €</p>
+</div>

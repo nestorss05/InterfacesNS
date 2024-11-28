@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Listado de misiones";
+}
+@model ClsListadosVM
+@using ExamenNS_ENT
+
+<div class="text-center">
+    <h1 class="display-4">El Tony y sus misiones chulas</h1>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <select name="id">
+            @foreach (ClsMision ms in Model.Misiones)
+            {
+                @if (Model.MisionEscogida?.IdMision == ms.IdMision)
+                {
+                    <option value="@ms.IdMision" selected>@ms.NombreMision</option>
+                }
+                else
+                {
+                    <option value="@ms.IdMision">@ms.NombreMision</option>
+                }
+            }
+        </select>
+        <button>Ver candidatos</button>
+    }
+    @if (Model.Candidatos is not null)
+    {
+        <style>
+            table, td {
+                border: 1px solid black;
+            }
+        </style>
+        <table style="width:100%">
+            <tr>
+                <td>Nombre</td>
+                <td>Apellidos</td>
+                <td>Edad</td>
+                <td></td>
+            </tr>
+            @foreach (ClsCandidato cn in Model.Candidatos)
+            {
+                <tr>
+                    <td>@cn.Nombre</td>
+                    <td>@cn.Apellidos</td>
+                    <td>@cn.Edad</td>
+                    <td>@Html.ActionLink("Ver detalles", "Detalles", new { id = cn.IdCandidato }))</td>
+                </tr>
+            }
+        </table>
+    }
+</div>

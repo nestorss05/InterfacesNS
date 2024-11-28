@@ -1,0 +1,77 @@
+ENT
+ClsMision
++ int IdMision (get, set)
++ string NombreMision (get, set)
++ int Dificultad (get, set)
+
++ ClsMision(int IdMision, string NombreMision)
+
+ClsCandidato
++ int IdCandidato (get, set)
++ string Nombre (get, set)
++ string Apellidos (get, set)
++ int Edad (get, set)
++ string Pais (get, set)
++ string Direccion (get, set)
++ int Telefono (get, set)
++ double Recompensa (get, set)
+
++ ClsCandidato(int IdCandidato, string Nombre, string Apellidos, int Edad, string Dirección, int Teléfono, double Recompensa)
+
+DAL
+ClsListadosDAL
++ static List<ClsMision>ListadoMisionesDAL()
++ static List<ClsCandidato>ListadoCandidatosDAL(ClsMision ms)
++ static ClsCandidato CandidatoEscogidoDAL(int idCandidato)
+
+BL
+ClsListadosBL
++ static List<ClsMision>ListadoMisionesBL()
++ static List<ClsCandidato>ListadoCandidatosPorMisionBL(int idMision)
++ static ClsCandidato CandidatoEscogidoBL(int idCandidato)
+
+UI (ASP.NET)
+
+ViewModels
+ClsListadosVM
+
+- List<ClsMision>misiones
+- List<ClsCandidato>candidatos
+- ClsMision misionSeleccionada
+
++ List<ClsMision>Misiones (get)
++ List<ClsCandidato>Candidatos (get)
++ ClsMision misionSeleccionada (get)
+
++ ClsListadosVM() { misiones = ListadoMisionesBL() }
++ ClsListadosVM(int idMision) 
+{ 
+	misiones = ListadoMisionesBL()
+	candidatos = ListadoCandidatosPorIdMisionBL(idMision)
+}
+
+ClsCandidatosVM()
+- ClsCandidato candidatoEscogido
+
++ ClsCandidato CandidatoEscogido (get)
+
++ ClsListadosVM(int idCandidato) 
+{ 
+	candidatoEscogido = CandidatoEscogidoBL(idCandidato)
+}
+
+Views
+/Home/Index.cshtml
+/Home/Detalles.cshtml
+
+Controllers: HomeController
+Index()
+return View(new ClsListadosVM())
+
+[HttpPost]
+Index(int id)
+return View(new ClsListadosVM(id))
+
+[HttpGet]
+Detalles(int id)
+return View(new ClsCandidatosVM(id))
