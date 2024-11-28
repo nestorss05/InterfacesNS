@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:EjercicioArtistasMAUI.ViewModels"
+             x:Class="EjercicioArtistasMAUI.Views.MainPage"
+             Title="">
+    <ContentPage.BindingContext>
+        <vmodel:ClsListadoVM></vmodel:ClsListadoVM>
+    </ContentPage.BindingContext>
+    <Grid RowDefinitions="250, *, 100">
+        <ScrollView>
+            <VerticalStackLayout>
+                <Label Text="Listado de artistas" FontSize="24"/>
+                <CollectionView ItemsSource="{Binding Artistas}" SelectedItem="{Binding ArtistaSeleccionado}" SelectionMode="Single">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <HorizontalStackLayout Padding="10" Margin="10">
+                                <Label Text="{Binding IdArtista}" Margin="10" FontSize="20"/>
+                                <Label Text="{Binding Nombre}" Margin="10" FontSize="20"/>
+                                <Label Text="{Binding Apellidos}" Margin="10" FontSize="20"/>
+                                <Label Text="{Binding NombreArtistico}" Margin="10" FontSize="20"/>
+                                <Label Text="{Binding DNI}" Margin="10" FontSize="20"/>
+                                <Label Text="{Binding FechaNac}" Margin="10" FontSize="20"/>
+                                <Label Text="{Binding Residencia}" Margin="10" FontSize="20"/>
+                            </HorizontalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+        
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout>
+                <Label Text="Listado de canciones" FontSize="24"/>
+                <CollectionView ItemsSource="{Binding Canciones}" SelectedItem="{Binding CancionSeleccionada}" SelectionMode="Single">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <HorizontalStackLayout Padding="10" Margin="10">
+                                <Label Text="{Binding IdCancion}" Margin="10" FontSize="20"/>
+                                <Label Text="{Binding Nombre}" Margin="10" FontSize="20"/>
+                            </HorizontalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+        <VerticalStackLayout Grid.Row="2">
+            <Label Text="Otros" FontSize="24"/>
+            <HorizontalStackLayout>
+                <Button Text="Detalles" Command="{Binding ComandoDetalles}"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>

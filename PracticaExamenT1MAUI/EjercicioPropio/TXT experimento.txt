@@ -1,0 +1,75 @@
+Enunciado: Una BD de artistas y canciones, con sus BD falsas ya que seran ObservableCollections. Se pedira un programa en MAUI que mostrara un listado de artistas mediante un Picker. Al hacer clic en un artista, se mostrara un listado de canciones del artista. Tambien se mostrara el numero de canciones que tiene el artista. Pero me aburro tanto que se me ocurrio solo mostrar el ID de cancion y el nombre en el listado de canciones, para asi hacer clic en un boton que diga "Mas detalles" y mostrar el resto de detalles de la cancion en una pagina nueva
+
+ENT
+ClsArtista
++ int IdArtista (get, set)
++ string Nombre (get, set)
++ string Apellidos (get, set)
++ string NombreArtistico (get, set)
++ string DNI (get, set)
++ DateTime FechaNac (get, set)
++ string Residencia (get, set)
+
+ClsArtista()
+ClsArtista(int idArtista, string nombre, string apellidos, string nombreArtistico, string dni, DateTime fechaNac, string residencia)
+
+ClsCancion
++ int IdCancion (get, set)
++ int IdArtista (get, set)
++ string Nombre (get, set)
++ string Duracion (get, set)
++ string Genero (get, set)
++ int Año (get, set)
+
+ClsCancion()
+ClsCancion(int idCancion, int idArtista, string nombre, string duracion, string genero, int año)
+
+DAL
+ClsListadosDAL
++ static List<ClsArtista>ListadoArtistasDAL
++ static List<ClsCancion>ListadoCancionesDAL(int idArtista)
++ int CantidadCancionesArtistaDAL(int idArtista)
+
+BL
+ClsListadosBL
++ static List<ClsArtista>ListadoArtistasBL
++ static List<ClsCancion>ListadoCancionesBL(int idArtista)
++ int CantidadCancionesArtistaBL(int idArtista)
+
+UI (MAUI)
+
+ViewModels
+ClsListadoVM: INotifyPropertyChanged
+- List<ClsArtista>artistas
+- List<ClsCancion>canciones
+- ClsArtista artistaSeleccionado
+- ClsCancion cancionSeleccionada
+- DelegateCommand comandoDetalles
+- DelegateCommand comandoVolver
+
++ List<ClsArtista>Artistas(get)
++ List<ClsCancion>Canciones(get, set)
++ ClsArtista artistaSeleccionado (get, set)
++ ClsCancion cancionSeleccionada (get, set)
++ int CuentaCanciones (get, set)
++ DelegateCommand ComandoDetalles (get)
++ DelegateCommand ComandoVolver (get)
+
+ClsListadoVM() 
+{
+artistas = ListadoArtistasBL()
+comandoDetalles = new DelegateCommand(ComandoDetalles_Executed, ComandoDetalles_CanExecute)
+comandoVolver = new DelegateCommand(ComandoVolver_Executed)
+}
+
+ObtenerListadoCanciones() {
+canciones = ListadoCancionesBL(artistaSeleccionado.IdArtista)
+}
+
+ComandoDetalles_Executed()
+ComandoDetalles_CanExecute(): bool
+ComandoVolver_Executed()
+
+Views
+MainPage.xaml
+DetallesCancion.xaml

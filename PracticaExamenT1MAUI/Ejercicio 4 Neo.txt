@@ -1,0 +1,39 @@
+Ejercicio 4 Neo
+
+ENT
+ClsTiempo
+
++ int id (get, set)
++ DateTime fecha (get, set)
++ int grados (get, set)
++ double viento (get, set)
++ int porcentajeLluvia (get, set)
++ int uv (get, set)
+
+ClsTiempo()
+ClsTiempo(int id, DateTime fecha, int grados, double viento, int porcentajeLluvia, int uv)
+
+DAL
+ClsListadosDAL
+
++ static List<ClsTiempo>ListadoTiemposDAL()
++ static ClsTiempo TiempoSeleccionadoDAL(int id)
+
+BL
+
++ static List<ClsTiempo>ListadoTiemposBL()
++ static ClsTiempo TiempoSeleccionadoBL(int id)
+
+UI (MAUI)
+
+ViewModels
+ClsListadoVM: INotifyPropertyChanged
+- ObservableCollection<ClsTiempo> tiempos
+- ClsTiempo tiempoEscogido
++ ObservableCollection<ClsTiempo> Tiempos (get)
++ ClsTiempo TiempoEscogido (get, set)
+
+ClsListadoVM() { tiempos = ListadoTiemposBL() }
+
+Views
+MainPage.xaml

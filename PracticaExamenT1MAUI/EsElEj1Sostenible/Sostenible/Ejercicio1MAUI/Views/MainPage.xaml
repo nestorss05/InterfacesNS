@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:Ejercicio1MAUI.ViewModels"
+             x:Class="Ejercicio1MAUI.Views.MainPage">
+    <ContentPage.BindingContext>
+        <vmodel:ClsListadoVM></vmodel:ClsListadoVM>
+    </ContentPage.BindingContext>
+    <Grid RowDefinitions="80, *, 20">
+        <VerticalStackLayout>
+            <Label Text="Fernando apruebame ya" Style="{StaticResource Headline}"/>
+            <Label Text="Pero esta vez trata de buscar la sostenibilidad en MAUI JODER" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+        <ScrollView Grid.Row="1">
+            <CollectionView ItemsSource="{Binding ListaFinal}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <HorizontalStackLayout Padding="10" Margin="10">
+                            <Label Text="{Binding Nombre}" Margin="10" FontSize="20"/>
+                            <Label Text="{Binding Apellidos}" Margin="10" FontSize="20"/>
+                            <HorizontalStackLayout>
+                                <Label Text="Mayor de edad: " Margin="10" FontSize="20"/>
+                                <CheckBox IsChecked="{Binding MayorEdad}" IsEnabled="False"/>
+                            </HorizontalStackLayout>
+                        </HorizontalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+        <StackLayout Grid.Row="2">
+            <Label Text="(C) 2024 (Mmmphh, Mmmphh, Mmmphh) PUTA"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

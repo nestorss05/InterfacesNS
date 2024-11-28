@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:EjercicioArtistasMAUI.ViewModels"
+             x:Class="EjercicioArtistasMAUI.Views.DetallesCancion"
+             Title="DetallesCancion">
+    <ContentPage.BindingContext>
+        <vmodel:ClsListadoVM></vmodel:ClsListadoVM>
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <HorizontalStackLayout Margin="20">
+            <Label Text="ID de cancion: " Margin="10" FontSize="20"/>
+            <Label Text="{Binding CancionSeleccionada.IdCancion}" Margin="10" FontSize="20"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Margin="20">
+            <Label Text="ID de artista: " Margin="10" FontSize="20"/>
+            <Label Text="{Binding CancionSeleccionada.IdArtista}" Margin="10" FontSize="20"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Margin="20">
+            <Label Text="Nombre: " Margin="10" FontSize="20"/>
+            <Label Text="{Binding CancionSeleccionada.Nombre}" Margin="10" FontSize="20"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Margin="20">
+            <Label Text="Duracion: " Margin="10" FontSize="20"/>
+            <Label Text="{Binding CancionSeleccionada.Duracion}" Margin="10" FontSize="20"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Margin="20">
+            <Label Text="Genero: " Margin="10" FontSize="20"/>
+            <Label Text="{Binding CancionSeleccionada.Genero}" Margin="10" FontSize="20"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Margin="20">
+            <Label Text="Año: " Margin="10" FontSize="20"/>
+            <Label Text="{Binding CancionSeleccionada.Año}" Margin="10" FontSize="20"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Margin="20">
+            <Button Text="Volver" Command="{Binding ComandoVolver}"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

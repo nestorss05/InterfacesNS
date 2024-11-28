@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodels="clr-namespace:ExamenNSMAUIv2.ViewModels"
+             x:Class="ExamenNSMAUIv2.Views.Detalles"
+             Title="Detalles">
+    <ContentPage.BindingContext>
+        <vmodels:ClsDetallesVM></vmodels:ClsDetallesVM>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <HorizontalStackLayout Margin="10">
+                <Label Text="ID: " FontSize="20" VerticalOptions="Center"/>
+                <Label Text="{Binding CandidatoEscogido.IdCandidato}" Margin="10" FontSize="20"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10">
+                <Label Text="Nombre: " FontSize="20" VerticalOptions="Center"/>
+                <Label Text="{Binding CandidatoEscogido.Nombre}" Margin="10" FontSize="20"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10">
+                <Label Text="Apellidos: " FontSize="20" VerticalOptions="Center"/>
+                <Label Text="{Binding CandidatoEscogido.Apellidos}" Margin="10" FontSize="20"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10">
+                <Label Text="Direccion: " FontSize="20" VerticalOptions="Center"/>
+                <Label Text="{Binding CandidatoEscogido.Direccion}" Margin="10" FontSize="20"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10">
+                <Label Text="Telefono: " FontSize="20" VerticalOptions="Center"/>
+                <Label Text="{Binding CandidatoEscogido.Telefono}" Margin="10" FontSize="20"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10">
+                <Label Text="Edad: " FontSize="20" VerticalOptions="Center"/>
+                <Label Text="{Binding CandidatoEscogido.Edad}" Margin="10" FontSize="20"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10">
+                <Label Text="Recompensa: " FontSize="20" VerticalOptions="Center"/>
+                <Label Text="{Binding CandidatoEscogido.Recompensa}" Margin="10" FontSize="20"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10">
+                <Button Text="Volver" Command="{Binding VolverCommand}"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
