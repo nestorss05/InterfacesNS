@@ -1,0 +1,41 @@
+EJERCICIO BUSCAMINAS (SOLO TXT)
+
+-----------------------------------------------------------
+
+BL
+
+-----------------------------------------------------------
+
+ClsJuegoBL
+getCasilla(int nivel)
+
+-----------------------------------------------------------
+
+UI (MAUI)
+
+-----------------------------------------------------------
+
+ViewModels
+
+PantallaVM: INotifyPropertyChanged
+- bool jugando
+- int nivel (get)
+
++ ClsCasilla CasillaSeleccionada (get, set)
++ int MaximasTiradas (get)
++ int LimiteBombas (get)
++ ObservableCollection<ClsCasilla> Tablero (get)
+
+-----------------------------------------------------------
+
+Models
+
+ClsCasilla
++ bool EsMina (get, set)
++ bool Revelado (get, set)
++ String Foto (get)
+
+-----------------------------------------------------------
+
+Views
+MainPage.xaml
