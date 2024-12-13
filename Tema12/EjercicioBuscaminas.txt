@@ -7,7 +7,9 @@ BL
 -----------------------------------------------------------
 
 ClsJuegoBL
-getCasilla(int nivel)
+getCasillas(int nivel)
+getLimiteBombas(int nivel)
+getTiradasMaximas(int nivel)
 
 -----------------------------------------------------------
 
@@ -18,11 +20,13 @@ UI (MAUI)
 ViewModels
 
 PantallaVM: INotifyPropertyChanged
-- bool jugando
 - int nivel (get)
+- int maxJugadas
+- int aciertos
+- int fallos
 
 + ClsCasilla CasillaSeleccionada (get, set)
-+ int MaximasTiradas (get)
++ int Tiradas (get)
 + int LimiteBombas (get)
 + ObservableCollection<ClsCasilla> Tablero (get)
 
@@ -31,7 +35,7 @@ PantallaVM: INotifyPropertyChanged
 Models
 
 ClsCasilla
-+ bool EsMina (get, set)
++ bool EsMina (get)
 + bool Revelado (get, set)
 + String Foto (get)
 
