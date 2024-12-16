@@ -17,13 +17,30 @@ namespace NoMinesUI.ViewModels
         private int maxJugadas;
         private int aciertos;
         private int fallos;
+        private ClsCasilla casillaSeleccionada;
+        private int tiradas;
+        private int limiteBombas;
+        public ObservableCollection<ClsCasilla> tablero;
         #endregion
 
         #region Propiedades
-        public ClsCasilla CasillaSeleccionada { get; set; }
-        public int Tiradas { get; }
-        public int LimiteBombas { get; }
-        public ObservableCollection<ClsCasilla> Tablero { get; }
+        public ClsCasilla CasillaSeleccionada 
+        {
+            get { return casillaSeleccionada; }
+            set { casillaSeleccionada = value; } // TODO ??
+        }
+        public int Tiradas 
+        { 
+            get { return tiradas; }
+        }
+        public int LimiteBombas
+        { 
+            get { return limiteBombas; }
+        }
+        public ObservableCollection<ClsCasilla> Tablero 
+        { 
+            get { return tablero; } 
+        }
         #endregion
 
         #region Constructor
@@ -31,8 +48,9 @@ namespace NoMinesUI.ViewModels
         {
             try
             {
+                limiteBombas = ClsJuegoBL.GetLimiteBombas(nivel);
+                tiradas = ClsJuegoBL.GetTiradasMaximas(nivel);
                 ClsJuegoBL.getCasillas(nivel);
-
             }
             catch (Exception ex) 
             {

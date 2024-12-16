@@ -39,7 +39,6 @@ namespace NoMinesUI.Models
             string foto;
             if (revelado)
             {
-                // TODO: enlaces de foto normal o bomba
                 if (esMina)
                 {
                     foto = "bomba.png";
