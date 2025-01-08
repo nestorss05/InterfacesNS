@@ -17,12 +17,14 @@ namespace Ejercicio1.ViewModels
     {
 
         #region Atributos
-        private List<ClsPokemon>? listadoPokemons;
+        private ObservableCollection<ClsPokemon>? listadoPokemons;
         private DelegateCommand executeCommand;
+        private int offset = 0;
+        private const int limit = 20;
         #endregion
 
         #region Propiedades
-        public List<ClsPokemon>? ListadoPokemons
+        public ObservableCollection<ClsPokemon>? ListadoPokemons
         {
             get { return listadoPokemons; }
             set 
@@ -50,8 +52,21 @@ namespace Ejercicio1.ViewModels
         #region Metodos
         private async void ExecuteCommand_Executed()
         {
-            listadoPokemons = await ClsPokemonDAL.GetPokemonsDAL();
-            // TODO: UI en MainPage
+            List<ClsPokemon> nuevosPokemons = await ClsPokemonDAL.GetPokemonsDAL(offset, limit);
+            if (ListadoPokemons == null)
+            {
+                ListadoPokemons = new ObservableCollection<ClsPokemon>();
+            }
+            else
+            {
+                ListadoPokemons.Clear();
+            }
+
+            foreach (ClsPokemon pokemon in nuevosPokemons)
+            {
+                ListadoPokemons.Add(pokemon);
+            }
+            offset += 20;
         }
 
         #endregion

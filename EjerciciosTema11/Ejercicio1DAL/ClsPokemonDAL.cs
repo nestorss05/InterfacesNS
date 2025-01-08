@@ -7,45 +7,46 @@ namespace Ejercicio1DAL
     {
         /// <summary>
         /// Metodo que devuelve un listado de pokemons
-        /// Pre: nada
+        /// Pre: offset y limite para la API
         /// Post: puede devolver un listado de los 20 primeros pokemons o te puede mandar un AlCarajoException (ojala)
         /// </summary>
+        /// <param name="offset">Posicion donde la API empezara a buscar</param>
+        /// <param name="limit">Limite de pokemons por lista</param>
         /// <returns>Listado de pokemons</returns>
-        public static async Task<List<ClsPokemon>> GetPokemonsDAL()
+        public static async Task<List<ClsPokemon>> GetPokemonsDAL(int offset, int limit)
         {
-
-            //Pido la cadena de la Uri al método estático
-            string miCadenaUrl = ClsConexion.getUriBase();
-            Uri miUri = new Uri($"{miCadenaUrl}Personas");
+            string miCadenaUrl = ClsConexion.getUriBase(offset, limit);
+            Uri miUri = new Uri($"{miCadenaUrl}");
             List<ClsPokemon> listadoPokemons = new List<ClsPokemon>();
-            HttpClient mihttpClient;
-            HttpResponseMessage miCodigoRespuesta;
-            string textoJsonRespuesta;
-
-            //Instanciamos el cliente Http
-            mihttpClient = new HttpClient();
+            HttpClient mihttpClient = new HttpClient();
 
             try
-
             {
+                HttpResponseMessage miCodigoRespuesta = await mihttpClient.GetAsync(miUri);
 
-                miCodigoRespuesta = await mihttpClient.GetAsync(miUri);
                 if (miCodigoRespuesta.IsSuccessStatusCode)
                 {
 
-                    textoJsonRespuesta = await mihttpClient.GetStringAsync(miUri);
-                    mihttpClient.Dispose();
+                    string textoJsonRespuesta = await mihttpClient.GetStringAsync(miUri);
 
                     //JsonConvert necesita using Newtonsoft.Json;
-                    listadoPokemons = JsonConvert.DeserializeObject<List<ClsPokemon>>(textoJsonRespuesta);
+                    PokeResponse res = JsonConvert.DeserializeObject<PokeResponse>(textoJsonRespuesta);
+
+                    if (res?.Results != null)
+                    {
+                        listadoPokemons = res.Results;
+                    }
 
                 }
 
             }
             catch (Exception ex)
             {
-                // TODO: AlCarajoException
                 throw ex;
+            }
+            finally
+            {
+                mihttpClient.Dispose();
             }
 
             return listadoPokemons;

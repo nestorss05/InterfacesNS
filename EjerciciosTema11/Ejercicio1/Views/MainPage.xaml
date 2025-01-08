@@ -6,12 +6,26 @@
     <ContentPage.BindingContext>
         <vmodel:PokeVM/>
     </ContentPage.BindingContext>
-    <ScrollView>
-        <VerticalStackLayout Padding="30,0" Spacing="25">
-            <Label Text="Tus muertos"/>
-            
-            <Button Text="Pickme" HorizontalOptions="Fill" />
-        </VerticalStackLayout>
-    </ScrollView>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <HorizontalStackLayout>
+            <Label Text="PokeAPI" FontSize="16" VerticalOptions="Center" Margin="20, 0"/>
+            <Button Text="Pickme" HorizontalOptions="Fill" Command="{Binding ExecuteCommand}"/>
+        </HorizontalStackLayout>
+        <CollectionView ItemsSource="{Binding ListadoPokemons}" SelectionMode="None" VerticalOptions="FillAndExpand" Grid.Row="1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <HorizontalStackLayout Padding="10" Margin="10">
+                        <Label Text="{Binding Name}" TextColor="White" FontSize="20"/>
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+    
 
 </ContentPage>

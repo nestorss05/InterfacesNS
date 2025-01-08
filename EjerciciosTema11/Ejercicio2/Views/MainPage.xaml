@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:Ejercicio2.ViewModels"
+             x:Class="Ejercicio2.Views.MainPage">
+    <ContentPage.BindingContext>
+        <vmodel:ListadoVM/>
+    </ContentPage.BindingContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Label Text="Listado" Style="{StaticResource Headline}"/>
+            <ActivityIndicator IsVisible="{Binding SinCargar}" IsRunning="True"/>
+        </VerticalStackLayout>
+        <CollectionView ItemsSource="{Binding ListadoPersonas}" SelectionMode="None" VerticalOptions="FillAndExpand" Grid.Row="1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <HorizontalStackLayout Padding="10" Margin="10" HeightRequest="80">
+                        <Image Source="{Binding foto}" WidthRequest="50" HeightRequest="50" Margin="4"/>
+                        <Label Text="{Binding id}" TextColor="White" FontSize="20" Margin="10, 0" VerticalOptions="Center"/>
+                        <Label Text="{Binding nombre}" TextColor="White" FontSize="20" Margin="10, 0" VerticalOptions="Center"/>
+                        <Label Text="{Binding apellidos}" TextColor="White" FontSize="20" Margin="10, 0" VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
