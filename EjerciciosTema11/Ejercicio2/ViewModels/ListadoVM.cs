@@ -51,19 +51,20 @@ namespace Ejercicio2.ViewModels
         private async void CargarLista()
         {
             List<ClsPersona> personasEncontradas = await ClsListadoDAL.GetListadoDAL();
-            if (ListadoPersonas == null)
+            if (listadoPersonas == null)
             {
-                ListadoPersonas = new ObservableCollection<ClsPersona>();
+                listadoPersonas = new ObservableCollection<ClsPersona>();
             }
             else
             {
-                ListadoPersonas.Clear();
+                listadoPersonas.Clear();
             }
             foreach (ClsPersona persona in personasEncontradas)
             {
-                ListadoPersonas.Add(persona);
+                listadoPersonas.Add(persona);
             }
             SinCargar = false;
+            NotifyPropertyChanged("ListadoPersonas");
         }
         #endregion
 

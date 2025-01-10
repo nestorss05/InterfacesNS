@@ -53,20 +53,21 @@ namespace Ejercicio1.ViewModels
         private async void ExecuteCommand_Executed()
         {
             List<ClsPokemon> nuevosPokemons = await ClsPokemonDAL.GetPokemonsDAL(offset, limit);
-            if (ListadoPokemons == null)
+            if (listadoPokemons == null)
             {
-                ListadoPokemons = new ObservableCollection<ClsPokemon>();
+                listadoPokemons = new ObservableCollection<ClsPokemon>();
             }
             else
             {
-                ListadoPokemons.Clear();
+                listadoPokemons.Clear();
             }
 
             foreach (ClsPokemon pokemon in nuevosPokemons)
             {
-                ListadoPokemons.Add(pokemon);
+                listadoPokemons.Add(pokemon);
             }
             offset += 20;
+            NotifyPropertyChanged("ListadoPokemons");
         }
 
         #endregion
