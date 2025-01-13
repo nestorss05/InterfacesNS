@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2", "Ejercicio2\Ej
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2DAL", "Ejercicio2DAL\Ejercicio2DAL.csproj", "{35D6CB31-493A-4260-A348-32CB2E55A839}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2ENT", "Ejercicio2ENT\Ejercicio2ENT.csproj", "{8CCB603B-5CBE-4B28-9054-6507C4D3C5CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2DTO", "Ejercicio2ENT\Ejercicio2DTO.csproj", "{8CCB603B-5CBE-4B28-9054-6507C4D3C5CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

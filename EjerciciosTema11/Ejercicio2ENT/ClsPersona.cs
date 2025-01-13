@@ -1,4 +1,4 @@
-﻿namespace Ejercicio2ENT
+﻿namespace Ejercicio2DTO
 {
     public class ClsPersona
     {

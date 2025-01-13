@@ -12,10 +12,14 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <VerticalStackLayout Padding="30,0" Spacing="25">
-            <Label Text="Listado" Style="{StaticResource Headline}"/>
+            <HorizontalStackLayout>
+                <Label Text="Listado" Style="{StaticResource Headline}" Margin="10, 0"/>
+                <Button Text="Crear" HorizontalOptions="Fill" Margin="10, 0" Command="{Binding CrearCommand}"/>
+                <Button Text="Eliminar" HorizontalOptions="Fill" Margin="10, 0" Command="{Binding EliminarCommand}"/>
+            </HorizontalStackLayout>
             <ActivityIndicator IsVisible="{Binding SinCargar}" IsRunning="True"/>
         </VerticalStackLayout>
-        <CollectionView ItemsSource="{Binding ListadoPersonas}" SelectionMode="None" VerticalOptions="FillAndExpand" Grid.Row="1">
+        <CollectionView ItemsSource="{Binding ListadoPersonas}" SelectedItem="{Binding PersonaSeleccionada}" SelectionMode="Single" VerticalOptions="FillAndExpand" Grid.Row="1">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <HorizontalStackLayout Padding="10" Margin="10" HeightRequest="80">

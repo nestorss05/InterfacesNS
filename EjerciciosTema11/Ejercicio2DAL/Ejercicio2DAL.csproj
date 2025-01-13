@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ejercicio2ENT\Ejercicio2ENT.csproj" />
+    <ProjectReference Include="..\Ejercicio2ENT\Ejercicio2DTO.csproj" />
   </ItemGroup>
 
 </Project>

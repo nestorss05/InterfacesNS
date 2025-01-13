@@ -64,7 +64,6 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\Ejercicio2DAL\Ejercicio2DAL.csproj" />
-	  <ProjectReference Include="..\Ejercicio2ENT\Ejercicio2ENT.csproj" />
 	</ItemGroup>
 
 </Project>
