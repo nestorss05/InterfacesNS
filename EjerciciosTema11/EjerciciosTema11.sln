@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1", "Ejercicio1\Ejercicio1.csproj", "{7B7C6CA9-A8A1-4209-B1FD-376A5F74A39B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio1", "Ejercicio1\Ejercicio1.csproj", "{7B7C6CA9-A8A1-4209-B1FD-376A5F74A39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1DAL", "Ejercicio1DAL\Ejercicio1DAL.csproj", "{FC65461D-EEA3-4DAA-AB4C-B95F9068A5A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio1DAL", "Ejercicio1DAL\Ejercicio1DAL.csproj", "{FC65461D-EEA3-4DAA-AB4C-B95F9068A5A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1ENT", "Ejercicio1ENT\Ejercicio1ENT.csproj", "{44ECE472-9E6F-4598-98D7-9D02B123F15E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio1DTO", "Ejercicio1ENT\Ejercicio1DTO.csproj", "{44ECE472-9E6F-4598-98D7-9D02B123F15E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2", "Ejercicio2\Ejercicio2.csproj", "{978EA1A4-5121-423D-9238-DFF0C1D64FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2", "Ejercicio2\Ejercicio2.csproj", "{978EA1A4-5121-423D-9238-DFF0C1D64FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2DAL", "Ejercicio2DAL\Ejercicio2DAL.csproj", "{35D6CB31-493A-4260-A348-32CB2E55A839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2DAL", "Ejercicio2DAL\Ejercicio2DAL.csproj", "{35D6CB31-493A-4260-A348-32CB2E55A839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2ENT", "Ejercicio2ENT\Ejercicio2ENT.csproj", "{8CCB603B-5CBE-4B28-9054-6507C4D3C5CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2ENT", "Ejercicio2ENT\Ejercicio2ENT.csproj", "{8CCB603B-5CBE-4B28-9054-6507C4D3C5CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

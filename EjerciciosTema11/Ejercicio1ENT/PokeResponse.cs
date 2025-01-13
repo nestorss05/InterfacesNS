@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio1ENT
+namespace Ejercicio1DTO
 {
     public class PokeResponse
     {

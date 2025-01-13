@@ -1,4 +1,4 @@
-﻿namespace Ejercicio1ENT
+﻿namespace Ejercicio1DTO
 {
     public class ClsPokemon
     {

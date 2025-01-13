@@ -14,7 +14,8 @@
         </Grid.RowDefinitions>
         <HorizontalStackLayout>
             <Label Text="PokeAPI" FontSize="16" VerticalOptions="Center" Margin="20, 0"/>
-            <Button Text="Pickme" HorizontalOptions="Fill" Command="{Binding ExecuteCommand}"/>
+            <Button Text="Atras" HorizontalOptions="Fill" Command="{Binding BackCommand}"/>
+            <Button Text="Siguiente" HorizontalOptions="Fill" Command="{Binding ExecuteCommand}"/>
         </HorizontalStackLayout>
         <CollectionView ItemsSource="{Binding ListadoPokemons}" SelectionMode="None" VerticalOptions="FillAndExpand" Grid.Row="1">
             <CollectionView.ItemTemplate>

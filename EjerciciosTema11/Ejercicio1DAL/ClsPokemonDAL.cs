@@ -1,4 +1,4 @@
-﻿using Ejercicio1ENT;
+﻿using Ejercicio1DTO;
 using Newtonsoft.Json;
 
 namespace Ejercicio1DAL
