@@ -18,7 +18,7 @@ namespace Ejercicio2.ViewModels
 
         #region Atributos
         private ObservableCollection<ClsPersona>? listadoPersonas;
-        private ClsPersona personaSeleccionada;
+        private ClsPersona? personaSeleccionada;
         private DelegateCommand crearCommand;
         private DelegateCommand eliminarCommand;
         private bool sinCargar;
@@ -35,7 +35,7 @@ namespace Ejercicio2.ViewModels
                 NotifyPropertyChanged("ListadoPersonas");
             }
         }
-        public ClsPersona PersonaSeleccionada
+        public ClsPersona? PersonaSeleccionada
         {
             get { return personaSeleccionada; }
             set
@@ -154,6 +154,8 @@ namespace Ejercicio2.ViewModels
                 {
                     await Application.Current.MainPage.DisplayAlert("Informacion", "La persona ha sido eliminada", "Aceptar");
                     CargarLista();
+                    personaSeleccionada = null;
+                    NotifyPropertyChanged("PersonaSeleccionada");
                 } 
                 else
                 {

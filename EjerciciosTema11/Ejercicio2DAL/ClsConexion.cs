@@ -16,7 +16,7 @@ namespace Ejercicio2DAL
         /// <returns>URI de la PokeAPI</returns>
         public static string getUriBase()
         {
-            string url = "https://nestorsanchezasp.azurewebsites.net/API/Personas";
+            string url = "https://nestorsanchezasp.azurewebsites.net/API";
             return url;
         }
     }

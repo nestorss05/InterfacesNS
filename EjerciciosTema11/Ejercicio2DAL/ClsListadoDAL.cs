@@ -1,12 +1,15 @@
 ﻿using Ejercicio2DTO;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using System.Collections.Generic;
 using System.Net;
 
 namespace Ejercicio2DAL
 {
     public class ClsListadoDAL
     {
+
+        private static ILogger logger;
+
         /// <summary>
         /// Metodo que devuelve un listado de personas
         /// Pre: nada
@@ -15,7 +18,7 @@ namespace Ejercicio2DAL
         /// <returns>Listado de personas</returns>
         public static async Task<List<ClsPersona>> GetListadoDAL()
         {
-            string miCadenaUrl = ClsConexion.getUriBase();
+            string miCadenaUrl = ClsConexion.getUriBase() + "/Personas";
             Uri miUri = new Uri($"{miCadenaUrl}");
             List<ClsPersona> listadoPersonas = new List<ClsPersona>();
             HttpClient mihttpClient = new HttpClient();
@@ -37,7 +40,8 @@ namespace Ejercicio2DAL
             }
             catch (Exception ex)
             {
-                throw ex;
+                logger.LogError(ex, "ERROR: No se ha podido conectar al servidor. Intentelo mas tarde.");
+                throw;
             }
             finally
             {
@@ -60,7 +64,7 @@ namespace Ejercicio2DAL
             HttpClient mihttpClient = new HttpClient();
             string datos;
             HttpContent contenido;
-            string miCadenaUrl = ClsConexion.getUriBase();
+            string miCadenaUrl = ClsConexion.getUriBase() + "/Personas";
             Uri miUri = new Uri($"{miCadenaUrl}");
 
             //Usaremos el Status de la respuesta para comprobar si ha borrado
@@ -74,7 +78,8 @@ namespace Ejercicio2DAL
             }
             catch (Exception ex)
             {
-                throw ex;
+                logger.LogError(ex, "ERROR: No se ha podido conectar al servidor. Intentelo mas tarde.");
+                throw;
             }
 
             return miRespuesta.StatusCode;
@@ -93,8 +98,7 @@ namespace Ejercicio2DAL
             HttpClient mihttpClient = new HttpClient();
             string datos;
             HttpContent contenido;
-            string miCadenaUrl = ClsConexion.getUriBase();
-            miCadenaUrl += "/" + idPersona;
+            string miCadenaUrl = ClsConexion.getUriBase() + "/Personas/" + idPersona;
             Uri miUri = new Uri($"{miCadenaUrl}");
 
             //Usaremos el Status de la respuesta para comprobar si ha borrado
@@ -106,7 +110,8 @@ namespace Ejercicio2DAL
             }
             catch (Exception ex)
             {
-                throw ex;
+                logger.LogError(ex, "ERROR: No se ha podido conectar al servidor. Intentelo mas tarde.");
+                throw;
             }
 
             return miRespuesta.StatusCode;
