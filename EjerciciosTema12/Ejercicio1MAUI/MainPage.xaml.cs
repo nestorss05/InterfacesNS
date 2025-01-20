@@ -11,14 +11,24 @@ namespace Ejercicio1MAUI
             _connection = new HubConnectionBuilder()
                 .WithUrl("http://localhost:7237")
                 .Build();
-            _connection.On<string>("MessageRecieved");
-            // https://www.youtube.com/watch?v=pDr0Hx67guk
-            // 11:46
+            _connection.On<string>("MessageRecieved", (message) =>
+            {
+                chatMessages.Text += $"{Environment.NewLine}{message}";
+            });
+
+            Task.Run(() =>
+            {
+                Dispatcher.Dispatch(async () =>
+                await _connection.StartAsync());
+            });
         }
 
-        private void Send(object sender, EventArgs e)
+        private async void Send(object sender, EventArgs e)
         {
+            await _connection.InvokeCoreAsync("SendMessage", args: new[] 
+            { myChatMessage.Text });
 
+            myChatMessage.Text = String.Empty;
         }
 
     }
